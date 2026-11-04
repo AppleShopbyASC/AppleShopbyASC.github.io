@@ -1,0 +1,1475 @@
+<!DOCTYPE html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light only"><script src="js/boot.js"></script>
+<title>Windows 換 Mac｜Mac 上手包</title><link rel="stylesheet" href="css/w1.css"></head><body class="w1 inner"><svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="v-fw" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></symbol>
+<symbol id="v-bk" viewBox="0 0 24 24"><path d="M19 12H5"/><path d="m11 6-6 6 6 6"/></symbol>
+<symbol id="v-up" viewBox="0 0 24 24"><path d="M12 19V5"/><path d="m6 11 6-6 6 6"/></symbol>
+<symbol id="v-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+<symbol id="v-ext" viewBox="0 0 24 24"><path d="M14 4.5h5.5V10"/><path d="M19.5 4.5 11 13"/><path d="M17.5 14v4.5a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1v-11a1 1 0 0 1 1-1H10"/></symbol>
+<symbol id="v-x" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+<symbol id="v-zoom" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6"/><path d="m15 15 5 5"/><path d="M10.5 8v5M8 10.5h5"/></symbol>
+<symbol id="v-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></symbol>
+<symbol id="v-list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11"/><path d="M4.5 6h.01M4.5 12h.01M4.5 18h.01"/></symbol>
+<symbol id="v-laptop" viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="10" rx="1.5"/><path d="M2.5 18.5h19"/></symbol>
+<symbol id="v-store" viewBox="0 0 24 24"><path d="M4 9.5 5.5 4.5h13L20 9.5"/><path d="M4 9.5c0 1.4 1.1 2.5 2.7 2.5s2.6-1.1 2.6-2.5c0 1.4 1.1 2.5 2.7 2.5s2.7-1.1 2.7-2.5c0 1.4 1 2.5 2.6 2.5S20 10.9 20 9.5"/><path d="M5.5 12v7.5h13V12"/><path d="M10 19.5v-4h4v4"/></symbol>
+<symbol id="v-check" viewBox="0 0 24 24"><path d="M12 3.2 5 5.8v5.4c0 4.3 2.9 7.9 7 9.6 4.1-1.7 7-5.3 7-9.6V5.8Z"/><path d="m8.8 12 2.2 2.2 4.3-4.4"/></symbol>
+<symbol id="v-pick" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="m8.5 12.2 2.4 2.4 4.6-4.8"/></symbol>
+<symbol id="v-offline" viewBox="0 0 24 24"><path d="M12 4v10"/><path d="m8 10.5 4 4 4-4"/><path d="M5 17.5v2h14v-2"/></symbol>
+<symbol id="v-text" viewBox="0 0 24 24"><path d="M4 18 9 6l5 12"/><path d="M5.8 14h6.4"/><path d="M15.5 18l3-7 3 7"/><path d="M16.4 16h4.2"/></symbol>
+</defs></svg>
+<header class="ibar"><div class="in col"><a class="btn btn-tertiary back " href="index.html" aria-label="回 Mac 上手包首頁"><svg class="ic bk" aria-hidden="true"><use href="#v-bk"/></svg><span class="lb">回上手包</span></a>
+<div class="doc" role="status" aria-label="目前章節"><span class="dt"><span class="dn">Windows 換 Mac</span><span class="cn">第 01 章・先看這張速查表</span></span></div>
+<button class="btn btn-secondary chbtn" type="button" aria-expanded="false" aria-controls="panel"><svg class="ic" aria-hidden="true"><use href="#v-list"/></svg><span class="lb">目錄</span><span class="n">01／10</span><svg class="ic" aria-hidden="true"><use href="#v-down"/></svg></button></div><span class="prog"></span></header>
+<div class="panel" id="panel" hidden><div class="card col" role="dialog" aria-label="章節">
+<div class="ph"><b>全部 10 章</b><button class="btn btn-tertiary pclose " type="button"><svg class="ic up" aria-hidden="true"><use href="#v-up"/></svg><span class="lb">收起</span></button></div>
+<div class="prow"><span class="lab"><svg class="ic" aria-hidden="true"><use href="#v-text"/></svg>文字大小</span><div class="seg" role="group" aria-label="文字大小"><button data-fs="20px" aria-pressed="true">標準</button><button data-fs="22px" aria-pressed="false">大</button><button data-fs="24px" aria-pressed="false">特大</button></div></div>
+<label class="field"><svg class="ic" aria-hidden="true"><use href="#v-search"/></svg><input id="q" type="search" placeholder="搜尋章節或內容" aria-label="搜尋章節或內容（例如：截圖、隨身碟）" autocomplete="off"><button class="clr" type="button" aria-label="清除搜尋"><svg class="ic" aria-hidden="true"><use href="#v-x"/></svg></button></label><p class="fhint">例如：截圖、隨身碟</p>
+<ol class="clist"><li style="--cc:#1F5FBF" data-t="先看這張速查表" data-s="01 先看這張速查表 你已經會用電腦了，只是換了一台。開機、上網、打字、存檔、印東西，這些邏輯完全沒變。真正要重新學的，其實就是下面這幾條。 不用從頭學。把「以前那樣做」換成「現在這樣做」就好。 用生活來想 這就像從開了十年的手排車換成自排車。路還是那條路、目的地還是那個目的地，方向盤也還在同一邊，你要重新習慣的只有換檔那隻手。前三天會一直去摸不存在的排檔桿，第四天就忘記有這回事了。 下面兩張表建議先看過一遍，不用背。真的忘記的時候回來翻，翻個三次就記住了。 每天都會用到的 這八條涵蓋了日常最常用的操作。只記得住一頁的話，就記這一頁。 你要做的事以前在 Windows現在在 Mac 複製、貼上、全選 Ctrl 加 C / V / A 把 Ctrl 換成 Command 就好 按右鍵 滑鼠右鍵 兩根手指在觸控式軌跡板上按一下 關掉一個程式 按右上角的 X Command 加 Q。左上角的紅色圓點只關視窗 找一個程式或檔案 按開始功能表打字搜尋 Command 加 空白鍵，打前幾個字 打開檔案總管 工作列上的資料夾圖示 Dock 最左邊的笑臉圖示，它叫 Finder 切換中文和英文 Shift 或 Ctrl 加 空白鍵 Control 加 空白鍵，或直接按 Caps Lock 截圖 PrintScreen 或剪取工具 Shift 加 Command 加 4，圈出範圍 切換到另一個程式 Alt 加 Tab Command 加 Tab 偶爾會用到的 這幾條不常用，但用到的時候如果不知道，會卡很久。 你要做的事以前在 Windows現在在 Mac 剪下檔案貼到別處 Ctrl 加 X 再 Ctrl 加 V 複製之後，用 Option 加 Command 加 V 貼上 刪掉一個檔案 選起來按 Delete Command 加 Delete，丟到垃圾桶 看檔案的內容和大小 右鍵選「內容」 Command 加 I，叫「取得資訊」 程式沒反應，強制關掉 Ctrl 加 Shift 加 Esc，叫出工作管理員再結束工作 Option 加 Command 加 esc 改系統設定 設定（舊版叫控制台） 左上角蘋果選單，選「系統設定」 安裝一個軟體 下載 exe，一直按「下一步」 從 App Store 下載，或把 App 拖進「應用程式」 移除一個軟體 設定裡的「應用程式」 把那個 App 拖到垃圾桶 壓縮或解壓縮 右鍵選「壓縮成 ZIP 檔案」；rar、7z 要裝 7-Zip 右鍵選「壓縮」；解壓縮直接點兩下 換機最值得先了解的三個小細節 最值得先了解的三個小細節 這三項設定與操作，是從 Windows 換過來最值得先認識的小細節。先了解，用起來就順心不驚慌。 結束程式按 Command 加 Q 按了視窗左上角的紅色圓點，是關閉視窗。要真正結束程式，按 Command 加 Q。第 05 章有完整說明。 捲動方向可自由調整 兩指滑動方向預設為自然捲動，若習慣傳統滑鼠滾輪方式，可以隨時依手感調整。第 04 章有清楚設定步驟。 外接隨身碟讀寫設定 從 Windows 帶過來的隨身碟，在 Mac 預設可以直接讀取；若需跨系統自由寫入，可參考第 09 章設定。 這些事情，你以後不用再做了 很多 Windows 時代養成的習慣，在 Mac 上是多餘的。省下來的時間拿去做別的事。 不用裝防毒軟體 系統本身就有防護，也會自動更新。額外裝的清理或防毒軟體，多半只會拖慢電腦，還很難移除乾淨。 不用做磁碟重組 現在的 Mac 用的是固態硬碟，系統自己會整理。沒有「磁碟重組」這個功能，也不需要。 不用定期清理登錄檔 Mac 沒有「登錄檔」這個東西。網路上叫你買軟體清理的，對 Mac 來說沒有意義。 不用每年重灌一次 Mac 不太會因為用久了就變慢。真的覺得怪，先重新開機，多半就好了。"><a class="ci" data-i="0" href="#ch-1"><span class="n">01</span><span>先看這張速查表</span></a></li><li style="--cc:#B8410E" data-t="Ctrl 換成了 Command" data-s="02 Ctrl 換成了 Command 這是整份教學最重要的一章。你在 Windows 上按了十幾年的 Ctrl，在 Mac 上換成了旁邊那顆 Command。搞定這一件事，大部分的不習慣就消失了。 先找到 Command 鍵：它就在空白鍵的左右兩邊，上面印著一朵四葉的花。 兩邊鍵盤最下面那排的排列不一樣。最常錯的是把 Mac 的 Control 當成 Windows 的 Ctrl：名字很像，位置也接近，但功能完全不同。 三顆鍵的對應關係 記住這三行，其他快速鍵你自己就推得出來。 這顆鍵以前在 Windows現在在 Mac 主要的那顆 Ctrl，在最左下角 Command，緊貼著空白鍵 次要的那顆 Alt Option，就在 Command 外面一顆 名字一樣的那顆 Ctrl 什麼都能做 Control 很少單獨用，主要拿來切輸入法 最常見的手誤 想複製卻按成 Control 加 C，結果什麼都沒發生。因為 Mac 的 Control 不是那顆。手指往右邊移一顆，按空白鍵旁邊那顆才對。 直接換掉 Ctrl 就成立的 這一組最好記：你原本會的組合鍵，把 Ctrl 換成 Command，動作完全一樣。 要做的事按什麼 複製Command 加 C 貼上Command 加 V 全選Command 加 A 儲存Command 加 S 復原上一步Command 加 Z 要做的事按什麼 在頁面裡找字Command 加 F 列印Command 加 P 開新視窗Command 加 N 關掉這個視窗Command 加 W 切換程式Command 加 Tab 換掉 Ctrl 不成立的四件事 這四個沒有一對一的對應，要另外記。也是從 Windows 換過來最值得先熟悉的四個。 剪下檔案：Mac 沒有這個動作 在 Windows 你會對檔案按 Ctrl 加 X。Mac 的 Command 加 X 只能剪文字，對檔案沒有反應。正確做法是先複製，貼的時候改成「搬移」：在原本的位置按 Command 加 C，到目的地按 Option 加 Command 加 V，檔案就搬過去了，原地不會留一份。 刪除鍵只往左邊刪 Mac 筆電鍵盤上那顆 delete，等於 Windows 的 Backspace，只會刪掉游標左邊的字。要刪右邊的字，按 fn 加 delete。要刪檔案，是 Command 加 delete。 強制關掉沒反應的程式 Windows 是 Ctrl 加 Shift 加 Esc，叫出工作管理員再結束工作。Mac 是 Option 加 Command 加 esc，會跳出一個清單，選那個沒反應的程式，按「強制結束」。 截圖不是按一顆鍵 Mac 沒有 PrintScreen。Shift 加 Command 加 3 是整個螢幕，Shift 加 Command 加 4 是自己圈範圍，Shift 加 Command 加 5 會打開一整排選項，包含錄影。圖預設會直接存到桌面。 中文和英文怎麼切 Windows 上你可能按 Shift 或 Ctrl 加 空白鍵。Mac 上有兩個做法，選一個順手的用就好。 用組合鍵 按 Control 加 空白鍵，在你裝的輸入法之間切換。 裝了三種以上輸入法的話，這個鍵是「上一個」，會在最近用的兩種之間來回跳。 用 Caps Lock（推薦） 直接按 Caps Lock 就能在中文和英文之間切換，一顆鍵解決，不用按組合。 要打全大寫的話，把 Caps Lock 按住不放一秒鐘，燈亮起來就是大寫鎖定。 如果 Caps Lock 沒有反應 表示這個功能沒開。去 蘋果選單 › 系統設定 › 鍵盤 › 文字輸入 › 輸入方式 › 編輯裡面，把「使用大寫鎖定鍵來切換上次使用的拉丁輸入方式及目前輸入方式」打開。 忘記快速鍵的時候，看選單列 Mac 有一個 Windows 沒有的好處：每個功能旁邊都寫著它的快速鍵。不用背，用久了自然會記得。 打開任何一個程式，看螢幕最上面那排選單。點開「檔案」或「編輯」，右邊那一欄小小的符號就是快速鍵。⌘ 是 Command、⌥ 是 Option、⇧ 是 Shift、⌃ 是 Control。 用生活來想 就像餐廳菜單上每道菜旁邊都標了編號。你不需要背編號，點菜的時候看一眼就好，點久了自然記得「三號是牛肉麵」。 我用的是外接的 Windows 鍵盤，怎麼辦 可以直接用，位置會自動對應：Windows 鍵當成 Command，Alt 鍵當成 Option。位置不順手的話，去系統設定 › 鍵盤 › 鍵盤快速鍵 › 變更鍵，可以把每顆鍵指定成你要的功能。 Mac 鍵盤上沒有 Home、End、Page Up 這幾顆 筆電鍵盤確實沒有，改用 fn 加方向鍵：fn 加左是 Home、fn 加右是 End、fn 加上是 Page Up、fn 加下是 Page Down。 按了 F1 到 F12，跑出來的是亮度和音量 Mac 預設把最上面那排當成功能鍵在用。要它們變回 F1 到 F12，按住 fn 再按。想永遠當 F 鍵用，去系統設定 › 鍵盤 › 鍵盤快速鍵 › 功能鍵，打開「使用 F1、F2 等按鍵作為標準功能鍵」。"><a class="ci" data-i="1" href="#ch-2"><span class="n">02</span><span>Ctrl 換成了 Command</span></a></li><li style="--cc:#2E7A4C" data-t="沒有開始功能表的桌面" data-s="03 沒有開始功能表的桌面 第一次看 Mac 的桌面，會覺得少了東西：左下角沒有開始按鈕，下面那排也不太像工作列。其實該有的都有，只是換了位置。 Windows 的東西集中在左下角，Mac 拆成上下兩條：上面是選單列，下面是 Dock。 上面是你熟悉的 Windows 桌面，下面是 Mac。三個編號是三組對應關係，下面一項一項說。 桌面三個區域的對應 這一區負責以前在 Windows現在在 Mac 找程式、找檔案 左下角的開始功能表，打字搜尋 Command 加 空白鍵 叫出 Spotlight，打字搜尋 看所有裝了什麼 開始功能表的程式清單 Dock 上的「App」，或 Finder 側邊欄的「應用程式」 切換和固定常用程式 下方工作列 下方的 Dock 音量、Wi-Fi、電池 右下角通知區域 右上角選單列，開關集中在「控制中心」 這個程式的功能選單 每個視窗自己上面那排 螢幕最上面那排，會跟著你現在用的程式換 選單列：Mac 最不一樣的一件事 這一點值得單獨講，因為它跟 Windows 的邏輯真的不同，很多人用了半年才發現。 Windows 的做法 每個視窗自己頭上有一排「檔案、編輯、檢視」。開三個視窗，就有三排選單。 要用哪個程式的功能，就去那個視窗上面找。 Mac 的做法 整個螢幕最上面只有一排選單，而且它顯示的是你現在正在用的那個程式。 點一下另一個視窗，最上面那排的內容就整個換掉了。左邊第二個字就是程式名稱，看那裡就知道現在是誰。 用生活來想 像是會議室門口的那塊電子看板。房間只有一塊看板，上面寫的是「現在裡面在開什麼會」。換一組人進去，看板就換內容。你不會期待每張桌子上都各有一塊。 找不到功能的時候，先看左上角 很多人好奇「這個程式的設定在哪裡」，其實是看錯地方。設定不在視窗裡，在最上面那排選單、程式名稱的下拉選單裡，通常叫「設定⋯」。所有程式都一樣。 Dock 不完全等於工作列 長得像，但有一個關鍵差別：Dock 上有圖示，不代表那個程式正在執行。 這件事以前在 Windows現在在 Mac 怎麼知道程式在跑 工作列上有沒有那個按鈕 看圖示下方有沒有一個小點 把常用程式放上去 右鍵選「釘選到工作列」 把 App 直接拖到 Dock 上，或右鍵選「保留在 Dock 上」 拿掉不要的 右鍵選「取消釘選」 右鍵選「從 Dock 中移除」，或直接拖出 Dock 往桌面一丟 右邊那一區 通知區域的小圖示 最近用過的 App、下載項目和垃圾桶 垃圾桶在 Dock 最右邊，不在桌面上。這也是常找不到的東西之一。 取代開始功能表的兩個工具 Windows 找東西只有一個入口，Mac 拆成兩個，各有各的場合。 Spotlight：知道名字就用它 按 Command 加 空白鍵，打前兩三個字，按 Return。程式、檔案、信件、設定選項都找得到，還能直接算數學和換匯率。這是 Mac 上最好用的一招，建議從第一天就開始用。 「App」：想用眼睛慢慢找就用它 Dock 上有一個由小方格組成的圖示，叫「App」。點下去會蓋滿整個螢幕，列出所有裝好的程式，像手機的主畫面一樣。想不起來名字、只記得圖示長什麼樣的時候用這個。 四指往上滑：看現在開了哪些視窗 四根手指在觸控式軌跡板上往上滑，所有開著的視窗會攤開來排在螢幕上，這叫「指揮中心」。等於 Windows 的工作檢視（Win 加 Tab），視窗開很多的時候特別好用。 幾個「它去哪了」的答案 「我的電腦」在哪裡 Mac 沒有這個圖示，因為你平常不需要它。你的檔案在 Finder 側邊欄的「桌面」「文件」「下載項目」裡，直接點就到。真的想看整顆硬碟，在 Finder 選單列點「前往」再選「電腦」。第 06 章會完整說明。 「顯示桌面」的按鈕在哪 Windows 是工作列最右邊那一小條。Mac 是用手勢：拇指和另外三根手指張開，所有視窗會退到旁邊，露出桌面。再捏回來就復原。 怎麼關機、重新開機 點螢幕左上角的蘋果圖示，裡面有「睡眠」「重新開機」「關機」。不過 Mac 平常不太需要關機，闔上螢幕它就睡了，開蓋馬上能用。 桌面上為什麼幾乎沒有圖示 Mac 桌面預設是乾淨的，內建硬碟、網路、資源回收筒都不會放在上面。你自己存到桌面的檔案會出現，插上的外接隨身碟也會出現在桌面。不想看到它，在 Finder 選單列點「Finder」再選「設定⋯」，在「一般」裡取消勾選「外接磁碟」。"><a class="ci" data-i="2" href="#ch-3"><span class="n">03</span><span>沒有開始功能表的桌面</span></a></li><li style="--cc:#7A3FC0" data-t="右鍵在哪、捲動反了" data-s="04 右鍵在哪、捲動反了 觸控式軌跡板上看不到左右鍵，滑起來的方向還跟以前相反。這兩件事是換過來的第一天最不舒服的地方，五分鐘就能解決。 右鍵沒有不見，它變成「用兩根手指按一下」。 兩指同時放在板子上，往下按到有喀一聲。不需要按特定位置，整片板子哪裡按都算。 如果你比較習慣「點一下」而不是「按下去」，可以改成兩指輕點就好，不用真的壓下去。設定的地方在下面。 右鍵的三種按法，挑一種 你的裝置以前在 Windows現在在 Mac 筆電的觸控板 板子右下角，或右鍵按鈕 兩根手指按一下（預設） Apple 觸控滑鼠（巧控滑鼠） 滑鼠右鍵 滑鼠表面偏右的位置按一下 任何一般滑鼠 滑鼠右鍵 一樣按右鍵，可以直接用 不想用兩指的話 不適用 按住 Control 再點一下，效果一樣 觸控滑鼠（巧控滑鼠）第一次用要注意 它整片表面都是按鈕，看不出左右。預設是有分左右的，按偏右邊就是右鍵。如果按了沒反應，去系統設定 › 滑鼠，確認「輔助按鈕」是設成「按一下右側」。 捲動方向：先決定要不要改 這是最多人第一天就想罵人的設定。花一分鐘決定，決定好就別再動它。 Mac 預設的邏輯是「手指推的是紙，不是捲軸」。手指往下滑，紙就往下走，所以你會看到上面的內容。 維持預設（自然捲動） 和 iPhone、iPad 的方向一致。如果你手機用得多，兩三天就會習慣，而且以後在手機和電腦之間切換不會錯亂。 建議先撐三天再決定。 改回 Windows 的方向 去系統設定 › 觸控式軌跡板 › 捲動與縮放，把「自然捲動」關掉。 用滑鼠的話，系統設定 › 滑鼠裡面也有一個一樣的開關，兩邊是分開的，都要關。 四個值得學的手勢 Windows 的觸控板手勢多半可有可無，Mac 上這四個是真的每天都會用到。 兩指上下滑：捲動頁面 取代滑鼠滾輪。左右滑則是回上一頁、下一頁，在瀏覽器裡特別好用，比找返回按鈕快。 兩指捏合或張開：縮放 和手機一樣。看照片、看 PDF、放大網頁字體都用它，不用再按 Ctrl 加滾輪。 四指往上滑：看所有開著的視窗 這是「指揮中心」。視窗開太多找不到的時候滑一下，全部攤開讓你挑。等於 Windows 的工作檢視（Win 加 Tab）。 四指左右滑：切換全螢幕的程式 把程式切成全螢幕之後，它會變成一個獨立的桌面。四指左右滑就在這些桌面之間移動，等於 Windows 的虛擬桌面切換。 全部的手勢清單在系統設定 › 觸控式軌跡板，每一項旁邊都有動畫示範，看得到才學得起來。 覺得游標太慢或太快 這也是換機第一天常有的感覺，因為兩邊出廠的預設速度不一樣。 調游標速度 系統設定 › 觸控式軌跡板 › 點按，最上面那條「軌跡速度」。滑鼠的話在「滑鼠」裡，一樣的位置。 改成輕點就好，不用壓 同一頁裡把「點一下來選按」打開。之後手指輕碰就等於按一下，用久了手比較不累。 可以用外接的 Windows 滑鼠嗎 可以，插上去就能用，左右鍵和滾輪都正常。有些滑鼠的側邊按鍵要裝廠商的驅動程式才會動，那個要去該廠牌的網站下載 Mac 版。 滑鼠滾輪的方向也可以調整嗎 可以。滑鼠和觸控式軌跡板的自然捲動是兩個獨立的開關，調整觸控板不會連動到滑鼠，可以在系統設定 › 滑鼠裡另外關閉。 兩指按了跳出選單，但選項比 Windows 少很多 正常。Mac 的右鍵選單刻意保持精簡。按住 Option 再按右鍵，選單會多出一批進階選項，例如「拷貝為路徑名稱」。"><a class="ci" data-i="3" href="#ch-4"><span class="n">04</span><span>右鍵在哪、捲動反了</span></a></li><li style="--cc:#1F5FBF" data-t="紅色叉叉不是關程式" data-s="05 紅色叉叉不是關程式 視窗右上角的三顆按鈕跑到左上角，還變成了三個小圓點。位置換了不打緊，重點是紅色那顆的意思跟 Windows 不一樣。 紅色只關掉這個視窗，程式還在背景跑。要真的結束，按 Command 加 Q。 三顆圓點平常是灰的，滑鼠移過去才會顯示裡面的符號。左邊紅、中間黃、右邊綠，順序固定不會變。 三顆圓點各是什麼 這顆按鈕以前在 Windows現在在 Mac 紅色（最左邊） 右上角的 X，按了程式就關了 只關掉這個視窗，程式繼續在背景執行 黃色（中間） 最小化，縮到工作列 縮到最小，縮進 Dock 的右邊那一區 綠色（最右邊） 最大化，填滿桌面但工作列還在 進入全螢幕，連上面那排選單列都會藏起來 綠色不是「最大化」 很多人按了綠色之後嚇一跳，因為整個畫面被吃掉，上面那排選單也不見了。要退出來，把滑鼠移到螢幕最上緣，選單列會滑下來，再點一次綠色圓點；或直接按 esc。 想要 Windows 那種「最大化」的話 Mac 上有兩個做法可以達到差不多的效果，不用被綠色全螢幕綁住。 最快：按住 Option 再點綠色 按住 Option 不放，綠色圓點裡的符號會變成加號，這時候點下去就是「填滿桌面但選單列還在」，最接近 Windows 的最大化。 要並排兩個視窗 把視窗拖到螢幕左邊或右邊的邊緣，放手就會自動貼齊一半，和 Windows 一樣。 也可以在選單列的「視窗」選單裡找「移動與調整大小」，裡面有「填滿」「左側」「右側」可以選。 怎麼確認程式真的關了 這件事影響的不只是強迫症，程式一直開著會吃電池。 看 Dock 圖示下面有沒有小點 有小點就是還在跑。沒有小點，才是真的關掉了。這是最直接的判斷方式，養成掃一眼的習慣。 用 Command 加 Q 結束 在那個程式的視窗上按 Command 加 Q，或在選單列點程式名稱、選「結束」。這才等於 Windows 按右上角 X 的效果。 程式沒反應就強制結束 按 Option 加 Command 加 esc，跳出來的清單選那個未回應的程式，按「強制結束」。這等於 Windows 工作管理員裡的「結束工作」。 想看誰在吃資源，用「活動監視器」 按 Command 加 空白鍵，打「活動監視器」。它對應工作管理員看效能的那一部分，可以看 CPU、記憶體、電池用量，也能在這裡結束程式。 視窗之間怎麼切 Windows 的 Alt 加 Tab 是切「視窗」，Mac 的 Command 加 Tab 是切「程式」。這個差別會讓人找不到自己剛剛開的那個檔案。 你想做的按什麼 換到另一個程式Command 加 Tab 同一個程式的不同視窗之間換Command 加 `（Tab 上面那顆） 攤開現在所有視窗來挑四指往上滑 只看這個程式開了哪些視窗Control 加 下方向鍵 用生活來想 Windows 像是把所有文件都攤在同一張桌上，Alt 加 Tab 是一張一張翻。Mac 是先分成好幾個抽屜，Command 加 Tab 換抽屜，換到抽屜之後再挑裡面的文件。 黃色圓點縮起來的視窗，怎麼叫回來 它會縮到 Dock 最右邊、垃圾桶左邊那一區，變成一個小縮圖，點一下就回來。找不到的話，用 Command 加 Tab 切到那個程式也會回來。 關掉所有視窗之後，程式還開著會怎樣 不會怎樣，它只是待命，占用的資源很少。不過選單列會一直是那個程式的，容易看錯。介意的話就順手 Command 加 Q。 為什麼有些程式關掉視窗就真的結束了 因為那類程式只有一個視窗，關掉就沒事做了，例如「系統設定」「計算機」。有文件概念的程式（瀏覽器、文書、郵件）才會留在背景。"><a class="ci" data-i="4" href="#ch-5"><span class="n">05</span><span>紅色叉叉不是關程式</span></a></li><li style="--cc:#B8410E" data-t="沒有 C 槽，檔案在哪" data-s="06 沒有 C 槽，檔案在哪 打開 Finder 卻找不到 C 槽 D 槽，是每個從 Windows 換過來的人的第一個問號。答案是：Mac 也有硬碟，只是它不希望你花時間在那裡面。 忘掉磁碟機代號。你的東西只在五個資料夾裡：桌面、文件、下載項目、圖片、影片。 左邊是 Windows 你熟悉的樹狀結構，右邊是 Mac。系統檔案不是不存在，是被收起來了，你不會不小心刪到。 Finder 就是檔案總管 Dock 最左邊那個藍色笑臉。它始終保持執行，因為它就是桌面與檔案管理本身。 四個編號對應下面四段說明。第一次打開建議照著看一遍，之後就很少需要摸索。 Finder 各部位對應檔案總管的哪一塊 這個部分以前在檔案總管現在在 Finder 左邊那一排捷徑 快速存取 側邊欄，可以把常用資料夾拖進去 顯示方式 大圖示、詳細資料、清單 圖像、列表、直欄、圖庫共四種 看得到目前路徑 上方位址列，一直都在 路徑列，預設關著，按 Option 加 Command 加 P 打開 直接打路徑跳過去 在位址列打 C:\... Shift 加 Command 加 G，叫「前往檔案夾」 搜尋 右上角搜尋框 右上角搜尋框，或 Command 加 F 兩個一定要先打開的設定 這兩個預設是關的，而 Windows 使用者非常依賴它們。開了之後 Finder 會順手很多。 顯示副檔名 Mac 預設把 .docx .jpg 這些藏起來。在 Finder 選單列點「Finder」選「設定⋯」，切到「進階」，勾「顯示所有檔案副檔名」。 顯示路徑列 打開 Finder，按 Option 加 Command 加 P。視窗底部會多一條，顯示你現在在哪一層，跟位址列一樣好用。 順便：顯示捲軸 Mac 的捲軸平常是隱藏的，很容易誤以為「這個資料夾就這幾個檔案」。去系統設定 › 外觀 › 顯示捲軸，改成「總是」。 檔案操作對照 你要做的事以前在 Windows現在在 Mac 新增資料夾 Ctrl 加 Shift 加 N Shift 加 Command 加 N 重新命名 按 F2 選起來按 Return，或點一下名字停一下再點 看檔案資訊 右鍵「內容」 Command 加 I，叫「取得資訊」 不開軟體快速看內容 檔案總管的「預覽窗格」要手動打開，沒有一按就看的快速鍵 選起來按空白鍵，叫「快速查看」，非常好用 刪除 按 Delete Command 加 Delete 清空資源回收筒 桌面右鍵「清空資源回收筒」 Dock 最右邊的垃圾桶，右鍵「清空垃圾桶」 複製一份在原地 複製再貼上 Command 加 D，叫「複製」 壓縮成一包 右鍵「傳送到」再選壓縮資料夾 右鍵選「壓縮」，直接產生 zip 再說一次剪下貼上 這是 Finder 裡最值得注意的一件事。Command 加 X 對檔案沒有作用。要搬移檔案：先在原地 Command 加 C 複製，到目的地按 Option 加 Command 加 V。或者更簡單：開兩個 Finder 視窗，直接把檔案拖過去。 檔案存到哪裡去了 從瀏覽器下載的東西，一律進「下載項目」。這一點和 Windows 一樣，路徑不同而已。 從程式裡按「儲存」的話，Mac 的儲存視窗預設是收起來的小視窗，只顯示檔名和一個位置下拉選單。很多人沒注意到那個位置，按了儲存就找不到檔案。點右邊的小箭頭可以展開成完整的資料夾清單，就跟 Windows 的另存新檔一樣。 找不到剛存的檔案 按 Command 加 空白鍵 打檔名。或打開 Finder 側邊欄的「最近項目」，剛動過的檔案都在那裡。 想固定存到某個資料夾 把那個資料夾拖進 Finder 側邊欄，之後儲存視窗的位置清單裡就會有它，一點就到。 那我的硬碟到底在哪 它叫「Macintosh HD」。在 Finder 選單列點「前往」再選「電腦」就看得到。裡面的「系統」「資源庫」這些資料夾請不要動，那是系統的東西，也刪不掉。 可以再分一個 D 槽出來放資料嗎 技術上可以，但不建議。Mac 的設計是一顆硬碟一個空間，分割之後兩邊都會卡，反而更難用。要分開放，用資料夾就好，或外接一顆硬碟。 資料夾裡的檔案好像不齊，只有幾個 先兩指往上滑看看下面。Mac 的捲軸平常隱藏，右邊沒有灰色長條不代表沒有東西。上面第三個設定就是在講這件事。 Finder 搜尋出來的東西太多、都不是我要的 搜尋框下面有一列可以選「這部 Mac」或「目前的檔案夾」，改成目前的檔案夾就會準很多。想固定這個行為，在 Finder 設定的「進階」裡把搜尋改成「搜尋目前的檔案夾」。"><a class="ci" data-i="5" href="#ch-6"><span class="n">06</span><span>沒有 C 槽，檔案在哪</span></a></li><li style="--cc:#2E7A4C" data-t="沒有 exe，怎麼裝軟體" data-s="07 沒有 exe，怎麼裝軟體 Windows 裝軟體是「下載一個檔案，一直按下一步」。Mac 的邏輯不一樣：多數時候你只是把一個東西拖進資料夾，就算裝好了。 Mac 上的 App 是一個完整的東西，不是一堆散裝檔案。搬進去叫安裝，丟掉就叫移除。 用生活來想 Windows 裝軟體像請師傅來家裡裝冷氣：要打洞、拉管線、接電，東西散在牆裡牆外，拆的時候也得請人來拆。Mac 比較像買一台電風扇，從箱子裡拿出來放到客廳就能用，不要了就整台搬走，牆上不會留洞。 三種安裝來源 來源以前在 Windows現在在 Mac 官方商店 Microsoft Store，很少人用 App Store，最安全，更新會自動處理 從官網下載 下載 .exe 或 .msi，一路按下一步 下載 .dmg，打開後把 App 拖進「應用程式」 需要安裝程式的 同上 少數會給 .pkg，那個就跟 Windows 一樣按下一步 日常用的軟體多半走前兩種。看到 .dmg 不要怕，它不是壓縮檔，是一個「虛擬光碟」。 dmg 的正確安裝流程 這是新手最常做錯的一件事，錯了不會壞掉，但每次開軟體都會怪怪的。 幾乎所有 dmg 打開後都長這樣：左邊一個 App 圖示，右邊一個「應用程式」資料夾，中間一個箭頭。它在告訴你要做什麼。 在「下載項目」裡點兩下那個 dmg 會跳出一個視窗，同時 Finder 側邊欄下方會多出一個像磁碟的東西。這代表它被「掛載」起來了，像插了一張光碟進去。 把 App 圖示拖到「應用程式」資料夾 視窗裡通常已經幫你放好了「應用程式」的捷徑，直接拖過去放手，複製完成就是安裝完成。這一步就是全部的安裝過程。 退出那個磁碟，再把 dmg 刪掉 在 Finder 側邊欄找到剛才多出來的那一項，點旁邊的退出符號。然後把「下載項目」裡的 dmg 丟到垃圾桶，它已經沒用了。 之後從「應用程式」或 Spotlight 打開 按 Command 加 空白鍵 打前幾個字就能開。想放到 Dock，開起來之後在 Dock 圖示上按右鍵，選「保留在 Dock 上」。 最常見的錯誤：直接從 dmg 裡開來用 沒有拖進「應用程式」就直接點兩下開，軟體是會動，但那等於「每次都要先插光碟」。徵狀是：重開機之後找不到那個 App、或桌面上一直有一個磁碟圖示賴著不走。發現弄錯了不用重下載，把 dmg 再打開一次，補拖進去就好。 第一次打開被系統擋下來 從官網下載的軟體，第一次開可能會跳出「已阻擋⋯以保護你的Mac」。這不是中毒，是系統的預設保護。 如果你信任這個來源 去系統設定 › 隱私權與安全性，往下捲到「安全性」那一段，會看到剛才被擋的那個 App，旁邊有一顆「強制打開」，點下去就好。 只要做一次，以後直接開。 如果你不確定來源 那就不要開。這個提示本身就是在提醒你：這個軟體不是從 App Store 來的，系統也認不出開發者。 先回頭確認一下，你是不是從搜尋結果的廣告連結、而不是官方網站下載的。 同一頁的「允許以下來源的應用程式」建議維持「App Store 與已知的開發者」，不要改成「任何來源」。 怎麼移除軟體 沒有 Windows 設定裡「應用程式」清單那種地方，因為不需要。 從「應用程式」拖到垃圾桶 打開 Finder，點側邊欄的「應用程式」，找到那個 App，拖到 Dock 最右邊的垃圾桶。清空垃圾桶就真的沒了。 有些軟體自帶移除工具 Adobe、部分防毒和驅動程式類的軟體例外，它們在「應用程式」裡會有一個 Uninstaller，用那個移除比較乾淨。 Windows 上買的軟體，可以裝到 Mac 嗎 程式本身不能直接用，兩邊是不同的系統。不過很多軟體有 Mac 版，而且授權常常是共用的（例如 Microsoft 365、Adobe），去官網用同一個帳號登入下載 Mac 版就好。純 Windows 專用的軟體則要找替代品，下一章有對照表。 要不要裝防毒軟體 一般使用不用。macOS 內建的防護會自動更新，而且第三方的清理和防毒軟體在 Mac 上經常是反效果：吃資源、跳廣告、還很難移除。公司規定要裝的話另當別論。 移除 App 之後，設定檔會留著嗎 會留一些在系統的資源庫裡。多數 App 留下的很小，不影響效能；大型軟體（例如影音剪輯、設計類）可能留下較多資料或快取，需要時用它自帶的移除工具會比較乾淨。好處是之後重新安裝，設定還在。"><a class="ci" data-i="6" href="#ch-7"><span class="n">07</span><span>沒有 exe，怎麼裝軟體</span></a></li><li style="--cc:#7A3FC0" data-t="常用軟體換成什麼" data-s="08 常用軟體換成什麼 你每天在 Windows 上開的那幾個程式，Mac 幾乎都有對應的。多數是系統內建，不用另外裝也不用花錢。 先別急著裝軟體。開機當天內建的這些，就足以應付大部分的事。 Finder 檔案總管 Safari 瀏覽器 郵件 Outlook 預覽程式 看圖、看 PDF 備忘錄 記事本 系統設定 設定 活動監視器 工作管理員 時光機 檔案備份 文書與辦公 用途以前在 Windows現在在 Mac 文件 Word Pages（內建、免費），或照樣裝 Word 試算表 Excel Numbers（內建、免費），或照樣裝 Excel 簡報 PowerPoint Keynote（內建、免費），或照樣裝 PowerPoint 記事 記事本 文字編輯（純文字），或備忘錄（能貼圖、能同步手機） 畫圖、標註 小畫家 預覽程式可以標註和塗改；要自由畫用無邊記 要交檔案給同事的話 Pages、Numbers、Keynote 存出來是自己的格式，Windows 打不開。要給人的時候，在「檔案」選單選「輸出至」，轉成 Word、Excel、PowerPoint 或 PDF 再寄。常常要跟 Windows 同事來回改稿的話，直接裝 Microsoft 365 的 Mac 版最省事。 看圖、影音、PDF 用途以前在 Windows現在在 Mac 看圖片 相片 App 預覽程式；或選起來按空白鍵直接看 看 PDF、簽名 Adobe Reader 預覽程式，內建就能填表和手寫簽名 看影片 Windows 媒體播放器 QuickTime Player；格式雜的話裝 VLC 管理照片 相片 App 照片，會和 iPhone 同一份 錄螢幕 Xbox Game Bar Shift 加 Command 加 5，直接錄 解壓縮 zip 內建就能開；rar、7z 要裝 7-Zip zip 點兩下就開；rar 或 7z 要裝 The Unarchiver 上網與通訊 用途以前在 Windows現在在 Mac 瀏覽器 Edge、Chrome Safari（內建，最省電）；Chrome、Edge 也都有 Mac 版 收信 Outlook 郵件（內建），或照樣裝 Outlook 通訊軟體 LINE、Teams 都有 Mac 版，去 App Store 或官網下載 傳檔案給手機 用 LINE 傳給自己，或接傳輸線 AirDrop，對 iPhone 直接無線丟過去 記密碼 瀏覽器記憶，或另裝軟體 「密碼」App，和 iPhone 同一份 系統工具 用途以前在 Windows現在在 Mac 改設定 控制台、設定 系統設定 看誰在吃資源 工作管理員 活動監視器 管理硬碟、格式化 磁碟管理 磁碟工具程式 備份檔案 檔案歷程記錄 時光機 雲端空間 OneDrive iCloud 雲碟；OneDrive 也有 Mac 版 下指令 命令提示字元、PowerShell 終端機 指紋登入 Windows Hello Touch ID 公司要用的系統只支援 Windows，怎麼辦 先確認是不是網頁版的，如果是，用 Safari 或 Chrome 開通常沒問題。真的是 Windows 專用軟體，可以問公司有沒有遠端桌面可以連，那是最簡單的解法。 注音輸入法用起來不太一樣 內建的注音預設是自動選字，打完一整句再按 Return，比一個字一個字選快。真的不習慣，可以在系統設定 › 鍵盤 › 文字輸入裡調整，或另外裝習慣的第三方輸入法。 字體不一樣，開 Word 檔會跑版 常見原因是 Windows 常用的新細明體、微軟正黑體 Mac 預設沒有。要跟同事來回改稿的話，兩邊都改用裝得到的共通字體（例如思源黑體），或最後定稿轉 PDF 再寄。"><a class="ci" data-i="7" href="#ch-8"><span class="n">08</span><span>常用軟體換成什麼</span></a></li><li style="--cc:#1F5FBF" data-t="隨身碟、印表機、螢幕" data-s="09 隨身碟、印表機、螢幕 周邊設備多半插上去就能用，不用找驅動程式光碟，也不用去官網下載。只要認識隨身碟格式，就能在 Mac 與 Windows 之間順暢讀寫、自由傳檔。 從 Windows 帶來的隨身碟，Mac 預設可以直接讀取；若想自由寫入檔案，選對格式即可。 用生活來想 這就像一本用你看得懂的語言寫的筆記本，你讀得很順，但那本子的裝訂方式讓你沒辦法往裡面加頁。內容沒問題，是本子的規格不合。 隨身碟格式與跨系統讀寫 因為那顆隨身碟是 NTFS 格式，那是 Windows 專用的格式。macOS 可以讀，但不能寫。要兩邊都能存，格式要換成 exFAT。 格式在 Windows在 Mac NTFS 讀寫都行，Windows 的預設 預設支援讀取，無法寫入 exFAT 讀寫都行 讀寫都行，兩邊互通就用這個 FAT32 讀寫都行 讀寫都行，但單一檔案不能超過 4GB APFS 看不到這顆碟 讀寫都行，Mac 專用 怎麼知道自己的是哪一種 把隨身碟插上，在 Finder 側邊欄點一下它，按 Command 加 I，「格式」那一欄就會寫。看到 Windows NT 檔案系統就是 NTFS。 要改格式的話 改格式會清空整顆碟。裡面的東西先複製到 Mac 上（讀是讀得到的），再動手。 先把裡面的檔案全部複製出來 插上隨身碟，把內容整包拖到 Mac 的「文件」或桌面。這一步不做，等一下全部會不見。 打開「磁碟工具程式」 按 Command 加 空白鍵，打「磁碟工具程式」。左邊清單裡點選那顆隨身碟，注意是點裝置本身，不是它底下那一層。 按上方的「清除」，格式選 ExFAT 名稱隨便取，格式選 ExFAT，架構如果有得選就選「主開機記錄」。按「清除」，幾秒就好。 把檔案複製回去 現在這顆碟在 Mac 和 Windows 兩邊都能讀寫了。把剛才備份出來的東西丟回去。 不想改格式、又非得在 Mac 上寫入 NTFS 的話，市面上有付費的第三方驅動程式。一般用途不建議，換成 exFAT 單純很多。 拔隨身碟之前要先退出 以前在 Windows 右下角的「安全地移除硬體」，很多人其實直接拔。 現在在 Mac 在 Finder 側邊欄，那顆碟的名字旁邊有一個退出符號，點一下。名字消失了才拔。 也可以把它從桌面拖到垃圾桶，垃圾桶會變成退出符號，這是 Mac 的老習慣。 沒退出就直接拔，通常沒事，但檔案正在寫入的時候拔會壞檔。養成習慣比較保險。 印表機、螢幕、其他周邊 設備以前在 Windows現在在 Mac 印表機 裝驅動程式，再新增印表機 同一個 Wi-Fi 下多半自動出現，列印時直接選 找不到印表機 控制台的裝置和印表機 系統設定 › 印表機與掃描器，按加號 外接螢幕 接上去，按 Win 加 P 選模式 接上去自動延伸；系統設定 › 顯示器可改成鏡像 藍牙耳機、鍵盤 設定裡新增藍牙裝置 右上角控制中心的藍牙，或系統設定 › 藍牙 接投影機 HDMI 線，按 Win 加 P HDMI 或 USB-C 轉接，接上就投；要同畫面就開鏡像 SD 卡、讀卡機 插上出現一個磁碟機 插上出現在 Finder 側邊欄，用完一樣要退出 要去哪裡下載印表機驅動程式 通常不用。macOS 內建了大部分廠牌的驅動，插上或在同一個 Wi-Fi 下就會自己抓。真的抓不到，才去該廠牌官網找 macOS 版本。掃描功能有時候要裝廠商的軟體才完整。 MacBook 的孔好像不夠用 比較新的機型主要是 USB-C 埠。要接舊的 USB 隨身碟、HDMI、SD 卡，買一個多功能轉接器就解決了，這是最常見的第一個配件。 外接螢幕的字看起來很模糊 去系統設定 › 顯示器，那台螢幕的解析度選「預設」那一格。非 Apple 的螢幕在某些解析度下會糊，換一格通常就清楚了。"><a class="ci" data-i="8" href="#ch-9"><span class="n">09</span><span>隨身碟、印表機、螢幕</span></a></li><li style="--cc:#B8410E" data-t="頭三天照著做就好" data-s="10 頭三天照著做就好 前面九章不用一次看完。這一章把該做的事排成三天，每天十分鐘，做完你就上手了。 不用一次學會全部。真正影響體驗的只有幾個設定，先把它們調好。 第一天：把手感調對 今天的目標是「用起來不彆扭」，全部在系統設定裡，十分鐘搞定。 決定捲動方向 系統設定 › 觸控式軌跡板 › 捲動與縮放。要維持 Mac 的方式就不動，想跟 Windows 一樣就把「自然捲動」關掉。用滑鼠的話，「滑鼠」那一頁也要關一次。 打開「點一下來選按」 同樣在觸控式軌跡板的「點按」那一頁。打開之後手指輕碰就等於按一下，不用整片壓下去，一天下來手會輕鬆很多。 打開副檔名和捲軸 Finder 選單列點「Finder」選「設定⋯」，在「進階」勾「顯示所有檔案副檔名」。再去系統設定 › 外觀 › 顯示捲軸改成「總是」。這兩個是 Windows 使用者最依賴的視覺線索。 練一次 Command 加空白鍵 按一次，打「計算機」，按 Return。這一招你之後每天會用幾十次，今天先讓手記住。 第二天：把東西放進來 今天處理資料和軟體。舊電腦先不要清空，確認都搬好了再說。 登入 Apple 帳號 用你 iPhone 上那一組。登入之後備忘錄、行事曆、照片、密碼會和手機同一份。不確定密碼就先拿手機確認，不要臨時新辦一組。 把舊電腦的檔案搬過來 想整批搬：在舊電腦裝 Apple 的「Windows 系統移轉輔助程式」，Mac 這邊打開「系統移轉輔助程式」選「從 Windows PC」，文件、照片、書籤、行事曆會一起過來，步驟見上手包第 04 章。只搬幾個資料夾的話，用一顆 exFAT 格式的隨身碟或外接硬碟分幾趟搬最單純；檔案不多，用雲端硬碟或寄給自己也行。 裝三到五個你每天用的軟體 先只裝真的每天開的那幾個，例如瀏覽器、通訊軟體、辦公室文書。其他的等到真的要用再裝，別一口氣把舊電腦上的東西全搬過來。 整理 Dock 用不到的圖示右鍵選「從 Dock 中移除」，常用的開起來之後右鍵選「保留在 Dock 上」。整理過的 Dock 用起來差很多。 第三天：設好備份就結束 這一天只有一件事，但它比前面所有事情加起來都重要。 買一顆外接硬碟，設定「時光機」 接上外接硬碟，系統會問你要不要拿來備份，按確定。之後它會自己每小時備份一次，你完全不用管。這是 Mac 上最省事、也最救命的功能。 確認 iCloud 有在同步 系統設定 › iCloud，看照片、備忘錄這些有沒有打開。這是雲端同步，和時光機的完整備份是兩件事，兩個都要有。 舊電腦先留著一個月 確定所有東西都在新電腦上、也備份過一輪之後，再處理舊機。急著清空是最容易後悔的一步。 三天之後，遇到問題怎麼辦 先重新開機 聽起來像廢話，但 Mac 平常很少關機，開了幾週之後偶爾會怪怪的。重開一次解決一大半。 問內建的「使用說明」 選單列最右邊的「輔助說明」，打關鍵字就找得到官方步驟，而且是繁體中文的。 用 Spotlight 找設定 想不起來某個設定在哪一頁，按 Command 加 空白鍵 直接打設定名稱，會直接跳到那一頁。 回門市問 買機的門市可以協助設定和操作教學。帶著電腦來，當場示範一次比看十頁說明快。 最後一句 換系統會不習慣是正常的，通常一到兩週就過去了。真的想不起來某個操作的時候，回到第 01 章那兩張速查表看一眼就好，不用從頭讀。"><a class="ci" data-i="9" href="#ch-10"><span class="n">10</span><span>頭三天照著做就好</span></a></li></ol><p class="cempty" hidden>找不到這個詞，試試換個說法。</p>
+
+</div></div>
+<main class="col"><header class="dochead"><img src="img/app-migration-assistant.png" alt=""><div><h1>Windows 換 Mac</h1><p>遇到哪件事，就翻哪件事・不用從頭讀</p></div></header>
+<section class="entry" aria-labelledby="ih">
+  <div class="split-box">
+    <!-- 左翼：最常用到的 8 件事直達 -->
+    <div class="split-left">
+      <div class="split-left-head">
+        <span class="dash-badge">常用技巧</span>
+        <h2 class="split-h2" id="ih">最常用到的 8 件事・點選輕鬆看</h2>
+        <p>點選直接看圖文步驟與順手小技巧：</p>
+      </div>
+      <div class="split-grid">
+        <a class="split-pill" href="#q-rightclick"><span class="pill-body"><span class="pill-ico" aria-hidden="true">🖱️</span><span class="pill-tx"><span class="nw">雙指輕點</span><span class="nw">當右鍵</span></span></span><svg class="ic fw" aria-hidden="true"><use href="#v-fw"/></svg></a>
+        <a class="split-pill" href="#q-scroll"><span class="pill-body"><span class="pill-ico" aria-hidden="true">🔄</span><span class="pill-tx"><span class="nw">捲動方向</span><span class="nw">隨心調</span></span></span><svg class="ic fw" aria-hidden="true"><use href="#v-fw"/></svg></a>
+        <a class="split-pill" href="#q-copy"><span class="pill-body"><span class="pill-ico" aria-hidden="true">⌨️</span><span class="pill-tx"><span class="nw">複製貼上</span> <span class="nw">Command</span></span></span><svg class="ic fw" aria-hidden="true"><use href="#v-fw"/></svg></a>
+        <a class="split-pill" href="#q-ime"><span class="pill-body"><span class="pill-ico" aria-hidden="true">🌐</span><span class="pill-tx"><span class="nw">一鍵快速</span><span class="nw">切換中英文</span></span></span><svg class="ic fw" aria-hidden="true"><use href="#v-fw"/></svg></a>
+        <a class="split-pill" href="#q-files"><span class="pill-body"><span class="pill-ico" aria-hidden="true">📁</span><span class="pill-tx"><span class="nw">Finder</span> <span class="nw">檔案直覺好找</span></span></span><svg class="ic fw" aria-hidden="true"><use href="#v-fw"/></svg></a>
+        <a class="split-pill" href="#q-quit"><span class="pill-body"><span class="pill-ico" aria-hidden="true">🔴</span><span class="pill-tx"><span class="nw">結束程式按</span> <span class="nw">⌘+Q</span></span></span><svg class="ic fw" aria-hidden="true"><use href="#v-fw"/></svg></a>
+        <a class="split-pill" href="#q-install"><span class="pill-body"><span class="pill-ico" aria-hidden="true">📦</span><span class="pill-tx"><span class="nw">拖移安裝與</span><span class="nw">乾淨移除</span></span></span><svg class="ic fw" aria-hidden="true"><use href="#v-fw"/></svg></a>
+        <a class="split-pill" href="#q-usb"><span class="pill-body"><span class="pill-ico" aria-hidden="true">💾</span><span class="pill-tx"><span class="nw">隨身碟</span><span class="nw">跨系統存取</span></span></span><svg class="ic fw" aria-hidden="true"><use href="#v-fw"/></svg></a>
+      </div>
+    </div>
+    <!-- 右翼：完整閱讀雙主幹 -->
+    <div class="split-right">
+      <div class="split-right-head">
+        <span class="dash-badge orange">完整指南</span>
+        <h3>依照你的節奏，從容開始</h3>
+        <p>兩條清晰路徑，陪你順暢探索新 Mac：</p>
+      </div>
+      <a class="split-track-card split-track-blue" href="#ch-1">
+        <div>
+          <span class="split-track-tag">第 01 章・隨查隨用</span>
+          <h4 class="split-track-h">16 件事並排速查表</h4>
+          <p class="split-track-desc"><span class="nw">複製、右鍵、關閉視窗，</span><span class="nw">以前和現在並排對照。</span></p>
+        </div>
+        <span class="split-track-btn"><span>進入速查表</span><svg class="ic fw" aria-hidden="true"><use href="#v-fw"/></svg></span>
+      </a>
+      <a class="split-track-card split-track-orange" href="#ch-10">
+        <div>
+          <span class="split-track-tag">第 10 章・循序漸進</span>
+          <h4 class="split-track-h">新機頭三天指南</h4>
+          <p class="split-track-desc"><span class="nw">每天 10 分鐘：調手感、搬資料，</span><span class="nw">設自動備份，順順上手。</span></p>
+        </div>
+        <span class="split-track-btn"><span>看三天指南</span><svg class="ic fw" aria-hidden="true"><use href="#v-fw"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section><section class="ch" style="--cc:#1F5FBF" id="ch-1" data-no="01" data-total="10" data-title="先看這張速查表">
+<div class="spread" style="--lt:#E3ECF9"><header class="chhead rv"><span class="big cnt" data-n="1" aria-hidden="true">01</span><p class="kick"><span class="no">第 01 章</span><span class="of">共 10 章</span></p>
+<h2>先看這張速查表</h2><p class="lead">你已經會用電腦了，只是換了一台。開機、上網、打字、存檔、印東西，這些邏輯完全沒變。真正要重新學的，其實就是下面這幾條。</p></header><div class="rv" style="--d:2"><svg class="art spread-art" viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><clipPath id="spwin0"><rect x="20" y="20" width="380" height="260" rx="24"/></clipPath><g clip-path="url(#spwin0)"><rect x="20" y="20" width="380" height="260" rx="24" fill="#FFFFFF"/><circle cx="330" cy="80" r="34" fill="#1F5FBF" opacity=".9"/><rect x="20" y="236" width="380" height="44" rx="0" fill="#D9B98C"/><rect x="20" y="268" width="380" height="12" fill="#B98F5C"/></g><rect x="56" y="110" width="120" height="84" rx="6" fill="#1B1E23"/><rect x="64" y="118" width="104" height="66" fill="#E7EAEE"/><rect x="72" y="126" width="12" height="12" fill="#8A929C"/><rect x="88" y="126" width="12" height="12" fill="#8A929C"/><rect x="72" y="142" width="12" height="12" fill="#8A929C"/><rect x="88" y="142" width="12" height="12" fill="#8A929C"/><rect x="104" y="194" width="24" height="26" fill="#8A929C"/><rect x="88" y="220" width="56" height="16" rx="3" fill="#8A929C"/><rect x="221.0" y="140.0" width="150" height="96.0" rx="5.250000000000001" fill="#1B1E23"/><rect x="225.5" y="144.5" width="141.0" height="84.75" fill="#EAF0F8"/><path d="M225.5 203.825 C260.75 188.57,288.95 197.04500000000002,312.92 191.1125 S352.4 183.485,366.5 188.57 V229.25 H225.5Z" fill="#DCE7F7"/><path d="M225.5 213.995 C267.8 203.825,303.05 212.3,335.48 205.51999999999998 S366.5 207.215,366.5 207.215 V229.25 H225.5Z" fill="#C4D6EE"/><rect x="225.5" y="144.5" width="141.0" height="6" fill="#FFFFFF" opacity=".92"/><rect x="229.73" y="146.6" width="7.050000000000001" height="1.7999999999999998" rx="0.8999999999999999" fill="#9AA1AA"/><rect x="239.6" y="146.6" width="5.64" height="1.7999999999999998" rx="0.8999999999999999" fill="#9AA1AA"/><rect x="249.47" y="146.6" width="6.345" height="1.7999999999999998" rx="0.8999999999999999" fill="#9AA1AA"/><rect x="259.34000000000003" y="146.6" width="5.64" height="1.7999999999999998" rx="0.8999999999999999" fill="#9AA1AA"/><rect x="346.76" y="146.6" width="14.100000000000001" height="1.7999999999999998" rx="0.8999999999999999" fill="#9AA1AA"/><rect x="260.75" y="218.23250000000002" width="70.5" height="8.475" rx="2.5425" fill="#FFFFFF" opacity=".75"/><rect x="264.22325" y="219.419" width="6.101999999999999" height="6.101999999999999" rx="1.4644799999999998" fill="#1F5FBF"/><rect x="273.7985" y="219.419" width="6.101999999999999" height="6.101999999999999" rx="1.4644799999999998" fill="#3BA55C"/><rect x="283.37375000000003" y="219.419" width="6.101999999999999" height="6.101999999999999" rx="1.4644799999999998" fill="#F2C14E"/><rect x="292.949" y="219.419" width="6.101999999999999" height="6.101999999999999" rx="1.4644799999999998" fill="#B8410E"/><rect x="302.52425" y="219.419" width="6.101999999999999" height="6.101999999999999" rx="1.4644799999999998" fill="#7A3FC0"/><rect x="312.09950000000003" y="219.419" width="6.101999999999999" height="6.101999999999999" rx="1.4644799999999998" fill="#4F8FE6"/><rect x="321.67475" y="219.419" width="6.101999999999999" height="6.101999999999999" rx="1.4644799999999998" fill="#7C8591"/><circle cx="296" cy="142.25" r="0.6" fill="#3A3F47"/><path d="M209.0 236 H383.0 L380.0 241.25 Q296 242.5625 212.0 241.25Z" fill="#C9CDD3"/><rect x="282.5" y="236" width="27.0" height="2.1000000000000005" rx="1.0500000000000003" fill="#9EA3AB"/><rect x="212.0" y="241.25" width="168.0" height="1.2" rx="2" fill="#9EA3AB" opacity=".6"/><path d="M168 92 C200 60,240 60,262 92" stroke="#111418" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M254 80 l10 14 l-16 2" stroke="#111418" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><g transform="translate(330 80)"><path d="M-12 -4 h20 l-6 -6 M12 6 h-20 l6 6" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g></svg></div></div>
+<aside class="key rv" aria-label="這一章的重點"><p class="lab">這一章的重點</p><p class="kq">不用從頭學。把「以前那樣做」換成「現在這樣做」就好；只記得住一頁，就記每天都會用到的那八條。</p></aside>
+<nav class="outline" aria-label="這一章的段落"><p class="lab">這一章分 4 段</p><ol><li><a href="#c1-h1">每天都會用到的</a></li><li><a href="#c1-h2">偶爾會用到的</a></li><li><a href="#c1-h3">換機最值得先了解的三個小細節</a></li><li><a href="#c1-h4">這些事情，你以後不用再做了</a></li></ol></nav>
+<div class="trouble-matrix-integrated" aria-label="8 大常用操作速查">
+  <div class="matrix-head">
+    <span class="matrix-tag">常用技巧</span>
+    <p class="matrix-title">想先了解這 8 項日常操作，直接點選看順手步驟：</p>
+  </div>
+  <div class="matrix-pills">
+    <a class="matrix-pill" href="#q-rightclick"><span>🖱️</span>雙指輕點當右鍵</a>
+    <a class="matrix-pill" href="#q-scroll"><span>🔄</span>捲動方向隨心調</a>
+    <a class="matrix-pill" href="#q-copy"><span>⌨️</span>複製貼上按 Command</a>
+    <a class="matrix-pill" href="#q-ime"><span>🌐</span>一鍵快速切換中英文</a>
+    <a class="matrix-pill" href="#q-files"><span>📁</span>Finder 檔案直覺好找</a>
+    <a class="matrix-pill" href="#q-quit"><span>🔴</span>結束程式按 ⌘+Q</a>
+    <a class="matrix-pill" href="#q-install"><span>📦</span>拖移安裝與乾淨移除</a>
+    <a class="matrix-pill" href="#q-usb"><span>💾</span>隨身碟跨系統存取</a>
+  </div>
+</div>
+<div class="sec">
+<p class="punch">不用從頭學。把「以前那樣做」換成「現在這樣做」就好。</p>
+<div class="metaphor">
+<span class="tag">用生活來想</span>
+<p>這就像從開了十年的手排車換成自排車。路還是那條路、目的地還是那個目的地，方向盤也還在同一邊，你要重新習慣的只有換檔那隻手。前三天會一直去摸不存在的排檔桿，第四天就忘記有這回事了。</p>
+</div>
+<p>下面兩張表建議先看過一遍，不用背。真的忘記的時候回來翻，翻個三次就記住了。</p>
+</div><div class="sec">
+<h3 id="c1-h1">每天都會用到的</h3>
+<p class="note">這八條涵蓋了日常最常用的操作。只記得住一頁的話，就記這一頁。</p>
+<div class="tbl"><table class="vs">
+<thead>
+<tr><th>你要做的事</th><th>以前在 Windows</th><th>現在在 Mac</th></tr>
+</thead>
+<tbody>
+<tr>
+<td data-l="你要做的事">複製、貼上、全選</td>
+<td data-l="以前在 Windows"><kbd>Ctrl</kbd> 加 <kbd>C</kbd> / <kbd>V</kbd> / <kbd>A</kbd></td>
+<td data-l="現在在 Mac">把 <kbd>Ctrl</kbd> 換成 <kbd>Command</kbd> 就好</td>
+</tr>
+<tr>
+<td data-l="你要做的事">按右鍵</td>
+<td data-l="以前在 Windows">滑鼠右鍵</td>
+<td data-l="現在在 Mac">兩根手指在觸控式軌跡板上按一下</td>
+</tr>
+<tr>
+<td data-l="你要做的事">關掉一個程式</td>
+<td data-l="以前在 Windows">按右上角的 <kbd>X</kbd></td>
+<td data-l="現在在 Mac"><kbd>Command</kbd> 加 <kbd>Q</kbd>。左上角的紅色圓點只關視窗</td>
+</tr>
+<tr>
+<td data-l="你要做的事">找一個程式或檔案</td>
+<td data-l="以前在 Windows">按開始功能表打字搜尋</td>
+<td data-l="現在在 Mac"><kbd>Command</kbd> 加 <kbd>空白鍵</kbd>，打前幾個字</td>
+</tr>
+<tr>
+<td data-l="你要做的事">打開檔案總管</td>
+<td data-l="以前在 Windows">工作列上的資料夾圖示</td>
+<td data-l="現在在 Mac">Dock 最左邊的笑臉圖示，它叫 Finder</td>
+</tr>
+<tr>
+<td data-l="你要做的事">切換中文和英文</td>
+<td data-l="以前在 Windows"><kbd>Shift</kbd> 或 <kbd>Ctrl</kbd> 加 <kbd>空白鍵</kbd></td>
+<td data-l="現在在 Mac"><kbd>Control</kbd> 加 <kbd>空白鍵</kbd>，或直接按 <kbd>Caps Lock</kbd></td>
+</tr>
+<tr>
+<td data-l="你要做的事">截圖</td>
+<td data-l="以前在 Windows"><kbd>PrintScreen</kbd> 或剪取工具</td>
+<td data-l="現在在 Mac"><kbd>Shift</kbd> 加 <kbd>Command</kbd> 加 <kbd>4</kbd>，圈出範圍</td>
+</tr>
+<tr>
+<td data-l="你要做的事">切換到另一個程式</td>
+<td data-l="以前在 Windows"><kbd>Alt</kbd> 加 <kbd>Tab</kbd></td>
+<td data-l="現在在 Mac"><kbd>Command</kbd> 加 <kbd>Tab</kbd></td>
+</tr>
+</tbody>
+</table></div>
+</div><div class="sec">
+<h3 id="c1-h2">偶爾會用到的</h3>
+<p class="note">這幾條不常用，但用到的時候如果不知道，會卡很久。</p>
+<div class="tbl"><table class="vs">
+<thead>
+<tr><th>你要做的事</th><th>以前在 Windows</th><th>現在在 Mac</th></tr>
+</thead>
+<tbody>
+<tr>
+<td data-l="你要做的事">剪下檔案貼到別處</td>
+<td data-l="以前在 Windows"><kbd>Ctrl</kbd> 加 <kbd>X</kbd> 再 <kbd>Ctrl</kbd> 加 <kbd>V</kbd></td>
+<td data-l="現在在 Mac">複製之後，用 <kbd>Option</kbd> 加 <kbd>Command</kbd> 加 <kbd>V</kbd> 貼上</td>
+</tr>
+<tr>
+<td data-l="你要做的事">刪掉一個檔案</td>
+<td data-l="以前在 Windows">選起來按 <kbd>Delete</kbd></td>
+<td data-l="現在在 Mac"><kbd>Command</kbd> 加 <kbd>Delete</kbd>，丟到垃圾桶</td>
+</tr>
+<tr>
+<td data-l="你要做的事">看檔案的內容和大小</td>
+<td data-l="以前在 Windows">右鍵選「內容」</td>
+<td data-l="現在在 Mac"><kbd>Command</kbd> 加 <kbd>I</kbd>，叫「取得資訊」</td>
+</tr>
+<tr>
+<td data-l="你要做的事">程式沒反應，強制關掉</td>
+<td data-l="以前在 Windows"><kbd>Ctrl</kbd> 加 <kbd>Shift</kbd> 加 <kbd>Esc</kbd>，叫出工作管理員再結束工作</td>
+<td data-l="現在在 Mac"><kbd>Option</kbd> 加 <kbd>Command</kbd> 加 <kbd>esc</kbd></td>
+</tr>
+<tr>
+<td data-l="你要做的事">改系統設定</td>
+<td data-l="以前在 Windows">設定（舊版叫控制台）</td>
+<td data-l="現在在 Mac">左上角蘋果選單，選「系統設定」</td>
+</tr>
+<tr>
+<td data-l="你要做的事">安裝一個軟體</td>
+<td data-l="以前在 Windows">下載 exe，一直按「下一步」</td>
+<td data-l="現在在 Mac">從 App Store 下載，或把 App 拖進「應用程式」</td>
+</tr>
+<tr>
+<td data-l="你要做的事">移除一個軟體</td>
+<td data-l="以前在 Windows">設定裡的「應用程式」</td>
+<td data-l="現在在 Mac">把那個 App 拖到垃圾桶</td>
+</tr>
+<tr>
+<td data-l="你要做的事">壓縮或解壓縮</td>
+<td data-l="以前在 Windows">右鍵選「壓縮成 ZIP 檔案」；rar、7z 要裝 7-Zip</td>
+<td data-l="現在在 Mac">右鍵選「壓縮」；解壓縮直接點兩下</td>
+</tr>
+</tbody>
+</table></div>
+</div><div class="sec">
+<h3 id="c1-h3">換機最值得先了解的三個小細節</h3>
+<p class="note">這三項設定與操作，是從 Windows 換過來最值得先認識的小細節。先了解，用起來就順心不驚慌。</p>
+<div class="cards c3">
+<div class="card">
+<h4>結束程式按 Command 加 Q</h4>
+<p>按了視窗左上角的紅色圓點，是關閉視窗。要真正結束程式，按 <kbd>Command</kbd> 加 <kbd>Q</kbd>。第 05 章有完整說明。</p>
+</div>
+<div class="card">
+<h4>捲動方向可自由調整</h4>
+<p>兩指滑動方向預設為自然捲動，若習慣傳統滑鼠滾輪方式，可以隨時依手感調整。第 04 章有清楚設定步驟。</p>
+</div>
+<div class="card">
+<h4>外接隨身碟讀寫設定</h4>
+<p>從 Windows 帶過來的隨身碟，在 Mac 預設可以直接讀取；若需跨系統自由寫入，可參考第 09 章設定。</p>
+</div>
+</div>
+</div><div class="sec">
+<h3 id="c1-h4">這些事情，你以後不用再做了</h3>
+<p class="note">很多 Windows 時代養成的習慣，在 Mac 上是多餘的。省下來的時間拿去做別的事。</p>
+<div class="cards c2">
+<div class="card">
+<h4>不用裝防毒軟體</h4>
+<p>系統本身就有防護，也會自動更新。額外裝的清理或防毒軟體，多半只會拖慢電腦，還很難移除乾淨。</p>
+</div>
+<div class="card">
+<h4>不用做磁碟重組</h4>
+<p>現在的 Mac 用的是固態硬碟，系統自己會整理。沒有「磁碟重組」這個功能，也不需要。</p>
+</div>
+<div class="card">
+<h4>不用定期清理登錄檔</h4>
+<p>Mac 沒有「登錄檔」這個東西。網路上叫你買軟體清理的，對 Mac 來說沒有意義。</p>
+</div>
+<div class="card">
+<h4>不用每年重灌一次</h4>
+<p>Mac 不太會因為用久了就變慢。真的覺得怪，先重新開機，多半就好了。</p>
+</div>
+</div>
+</div>
+<section class="recap rv" aria-label="這一章做完了嗎"><p class="lab">做完打勾・第 01 章</p><ul class="chk"><li><label><input type="checkbox" data-k="win-0-0"><span class="bx" aria-hidden="true"></span><span class="tx">看過「每天都會用到的」八條</span></label></li><li><label><input type="checkbox" data-k="win-0-1"><span class="bx" aria-hidden="true"></span><span class="tx">知道換機最值得先了解的三個小細節</span></label></li><li><label><input type="checkbox" data-k="win-0-2"><span class="bx" aria-hidden="true"></span><span class="tx">不再裝防毒、清理軟體</span></label></li></ul></section>
+<nav class="chend" aria-label="讀完這一章"><p class="done">讀完第 01 章了</p><p class="nxl">下一步</p><a class="btn btn-primary btn-block" style="--nc:#B8410E" href="#ch-2"><span class="t"><small>下一章</small><span>02　Ctrl 換成了 Command</span></span><svg class="ic fw" aria-hidden="true"><use href="#v-fw"/></svg></a><a class="btn btn-tertiary prev " href="index.html"><svg class="ic bk" aria-hidden="true"><use href="#v-bk"/></svg><span class="lb">回 Mac 上手包</span></a></nav>
+</section><section class="ch" style="--cc:#B8410E" id="ch-2" data-no="02" data-total="10" data-title="Ctrl 換成了 Command">
+<div class="spread" style="--lt:#F8E6DC"><header class="chhead rv"><span class="big cnt" data-n="2" aria-hidden="true">02</span><p class="kick"><span class="no">第 02 章</span><span class="of">共 10 章</span></p>
+<h2>Ctrl 換成了 Command</h2><p class="lead">這是整份教學最重要的一章。你在 Windows 上按了十幾年的 <kbd>Ctrl</kbd>，在 Mac 上換成了旁邊那顆 <kbd>Command</kbd>。搞定這一件事，大部分的不習慣就消失了。</p></header><div class="rv" style="--d:2"><svg class="art spread-art" viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><clipPath id="spwin1"><rect x="20" y="20" width="380" height="260" rx="24"/></clipPath><g clip-path="url(#spwin1)"><rect x="20" y="20" width="380" height="260" rx="24" fill="#FFFFFF"/><circle cx="330" cy="80" r="34" fill="#B8410E" opacity=".9"/><rect x="20" y="236" width="380" height="44" rx="0" fill="#D9B98C"/><rect x="20" y="268" width="380" height="12" fill="#B98F5C"/></g><rect x="70" y="98" width="280" height="132" rx="16" fill="#C9CDD3"/><rect x="70" y="98" width="280" height="132" rx="16" fill="none" stroke="#9EA3AB" stroke-width="3"/><rect x="84" y="110" width="36" height="32" rx="6" fill="#fff"/><rect x="128" y="110" width="36" height="32" rx="6" fill="#fff"/><rect x="172" y="110" width="36" height="32" rx="6" fill="#fff"/><rect x="216" y="110" width="36" height="32" rx="6" fill="#fff"/><rect x="260" y="110" width="36" height="32" rx="6" fill="#fff"/><rect x="304" y="110" width="36" height="32" rx="6" fill="#fff"/><rect x="84" y="150" width="36" height="32" rx="6" fill="#fff"/><rect x="128" y="150" width="36" height="32" rx="6" fill="#fff"/><rect x="172" y="150" width="36" height="32" rx="6" fill="#fff"/><rect x="216" y="150" width="36" height="32" rx="6" fill="#fff"/><rect x="260" y="150" width="36" height="32" rx="6" fill="#fff"/><rect x="304" y="150" width="36" height="32" rx="6" fill="#fff"/><rect x="84" y="190" width="54" height="30" rx="6" fill="#fff"/><rect x="146" y="190" width="70" height="30" rx="6" fill="#B8410E"/><rect x="224" y="190" width="112" height="30" rx="6" fill="#fff"/><g transform="translate(166 192) scale(.17)" stroke="#fff" stroke-width="14" fill="none"><path d="M60 44 A16 16 0 1 0 44 60 H116 A16 16 0 1 0 100 44 V116 A16 16 0 1 0 116 100 H44 A16 16 0 1 0 60 116 Z"/></g><g transform="translate(330 80) scale(.22) translate(-80 -80)" stroke="#fff" stroke-width="16" fill="none"><path d="M60 44 A16 16 0 1 0 44 60 H116 A16 16 0 1 0 100 44 V116 A16 16 0 1 0 116 100 H44 A16 16 0 1 0 60 116 Z"/></g></svg></div></div>
+<aside class="key rv" aria-label="這一章的重點"><p class="lab">這一章的重點</p><p class="kq">你會的組合鍵，把 Ctrl 換成空白鍵旁邊的 Command，動作就一樣。不是名字很像的 Control。</p></aside>
+<nav class="outline" aria-label="這一章的段落"><p class="lab">這一章分 5 段</p><ol><li><a href="#c2-h1">三顆鍵的對應關係</a></li><li><a href="#c2-h2">直接換掉 Ctrl 就成立的</a></li><li><a href="#c2-h3">換掉 Ctrl 不成立的四件事</a></li><li><a href="#c2-h4">中文和英文怎麼切</a></li><li><a href="#c2-h5">忘記快速鍵的時候，看選單列</a></li></ol></nav>
+<div class="sec">
+<p class="punch">先找到 Command 鍵：它就在空白鍵的左右兩邊，上面印著一朵四葉的花。</p>
+<figure class="dia wide">
+<img alt="Windows 鍵盤與 Mac 鍵盤最下面一排的對照圖，標出 Ctrl 對應 Command、Windows 鍵對應 Control、Alt 對應 Option 的位置" src="img/fig-windows-02-1.png"/>
+<figcaption><span class="fno">圖 02-1</span>兩邊鍵盤最下面那排的排列不一樣。最常錯的是把 Mac 的 <kbd>Control</kbd> 當成 Windows 的 <kbd>Ctrl</kbd>：名字很像，位置也接近，但功能完全不同。</figcaption>
+</figure>
+</div><div class="sec">
+<h3 id="c2-h1">三顆鍵的對應關係</h3>
+<p class="note">記住這三行，其他快速鍵你自己就推得出來。</p>
+<div class="tbl"><table class="vs">
+<thead>
+<tr><th>這顆鍵</th><th>以前在 Windows</th><th>現在在 Mac</th></tr>
+</thead>
+<tbody>
+<tr>
+<td data-l="這顆鍵">主要的那顆</td>
+<td data-l="以前在 Windows"><kbd>Ctrl</kbd>，在最左下角</td>
+<td data-l="現在在 Mac"><kbd>Command</kbd>，緊貼著空白鍵</td>
+</tr>
+<tr>
+<td data-l="這顆鍵">次要的那顆</td>
+<td data-l="以前在 Windows"><kbd>Alt</kbd></td>
+<td data-l="現在在 Mac"><kbd>Option</kbd>，就在 <kbd>Command</kbd> 外面一顆</td>
+</tr>
+<tr>
+<td data-l="這顆鍵">名字一樣的那顆</td>
+<td data-l="以前在 Windows"><kbd>Ctrl</kbd> 什麼都能做</td>
+<td data-l="現在在 Mac"><kbd>Control</kbd> 很少單獨用，主要拿來切輸入法</td>
+</tr>
+</tbody>
+</table></div>
+<div class="warn">
+<span class="tag">最常見的手誤</span>
+<p>想複製卻按成 <kbd>Control</kbd> 加 <kbd>C</kbd>，結果什麼都沒發生。因為 Mac 的 <kbd>Control</kbd> 不是那顆。手指往右邊移一顆，按空白鍵旁邊那顆才對。</p>
+</div>
+</div><div class="sec" id="q-copy">
+<h3 id="c2-h2">直接換掉 Ctrl 就成立的</h3>
+<p class="note">這一組最好記：你原本會的組合鍵，把 <kbd>Ctrl</kbd> 換成 <kbd>Command</kbd>，動作完全一樣。</p>
+<div class="row">
+<div class="tbl"><table class="keys">
+<thead><tr><th>要做的事</th><th>按什麼</th></tr></thead>
+<tbody>
+<tr><td data-l="要做的事">複製</td><td data-l="按什麼"><kbd>Command</kbd> 加 <kbd>C</kbd></td></tr>
+<tr><td data-l="要做的事">貼上</td><td data-l="按什麼"><kbd>Command</kbd> 加 <kbd>V</kbd></td></tr>
+<tr><td data-l="要做的事">全選</td><td data-l="按什麼"><kbd>Command</kbd> 加 <kbd>A</kbd></td></tr>
+<tr><td data-l="要做的事">儲存</td><td data-l="按什麼"><kbd>Command</kbd> 加 <kbd>S</kbd></td></tr>
+<tr><td data-l="要做的事">復原上一步</td><td data-l="按什麼"><kbd>Command</kbd> 加 <kbd>Z</kbd></td></tr>
+</tbody>
+</table></div>
+<div class="tbl"><table class="keys">
+<thead><tr><th>要做的事</th><th>按什麼</th></tr></thead>
+<tbody>
+<tr><td data-l="要做的事">在頁面裡找字</td><td data-l="按什麼"><kbd>Command</kbd> 加 <kbd>F</kbd></td></tr>
+<tr><td data-l="要做的事">列印</td><td data-l="按什麼"><kbd>Command</kbd> 加 <kbd>P</kbd></td></tr>
+<tr><td data-l="要做的事">開新視窗</td><td data-l="按什麼"><kbd>Command</kbd> 加 <kbd>N</kbd></td></tr>
+<tr><td data-l="要做的事">關掉這個視窗</td><td data-l="按什麼"><kbd>Command</kbd> 加 <kbd>W</kbd></td></tr>
+<tr><td data-l="要做的事">切換程式</td><td data-l="按什麼"><kbd>Command</kbd> 加 <kbd>Tab</kbd></td></tr>
+</tbody>
+</table></div>
+</div>
+</div><div class="sec">
+<h3 id="c2-h3">換掉 Ctrl 不成立的四件事</h3>
+<p class="note">這四個沒有一對一的對應，要另外記。也是從 Windows 換過來最值得先熟悉的四個。</p>
+<ol class="steps">
+<li>
+<span class="t">剪下檔案：Mac 沒有這個動作</span>
+<span class="d">在 Windows 你會對檔案按 <kbd>Ctrl</kbd> 加 <kbd>X</kbd>。Mac 的 <kbd>Command</kbd> 加 <kbd>X</kbd> 只能剪文字，對檔案沒有反應。正確做法是<strong>先複製，貼的時候改成「搬移」</strong>：在原本的位置按 <kbd>Command</kbd> 加 <kbd>C</kbd>，到目的地按 <kbd>Option</kbd> 加 <kbd>Command</kbd> 加 <kbd>V</kbd>，檔案就搬過去了，原地不會留一份。</span>
+</li>
+<li>
+<span class="t">刪除鍵只往左邊刪</span>
+<span class="d">Mac 筆電鍵盤上那顆 <kbd>delete</kbd>，等於 Windows 的 <kbd>Backspace</kbd>，只會刪掉游標左邊的字。要刪右邊的字，按 <kbd>fn</kbd> 加 <kbd>delete</kbd>。要刪檔案，是 <kbd>Command</kbd> 加 <kbd>delete</kbd>。</span>
+</li>
+<li>
+<span class="t">強制關掉沒反應的程式</span>
+<span class="d">Windows 是 <kbd>Ctrl</kbd> 加 <kbd>Shift</kbd> 加 <kbd>Esc</kbd>，叫出工作管理員再結束工作。Mac 是 <kbd>Option</kbd> 加 <kbd>Command</kbd> 加 <kbd>esc</kbd>，會跳出一個清單，選那個沒反應的程式，按「強制結束」。</span>
+</li>
+<li>
+<span class="t">截圖不是按一顆鍵</span>
+<span class="d">Mac 沒有 <kbd>PrintScreen</kbd>。<kbd>Shift</kbd> 加 <kbd>Command</kbd> 加 <kbd>3</kbd> 是整個螢幕，<kbd>Shift</kbd> 加 <kbd>Command</kbd> 加 <kbd>4</kbd> 是自己圈範圍，<kbd>Shift</kbd> 加 <kbd>Command</kbd> 加 <kbd>5</kbd> 會打開一整排選項，包含錄影。圖預設會直接存到桌面。</span>
+</li>
+</ol>
+</div><div class="sec" id="q-ime">
+<h3 id="c2-h4">中文和英文怎麼切</h3>
+<p>Windows 上你可能按 <kbd>Shift</kbd> 或 <kbd>Ctrl</kbd> 加 <kbd>空白鍵</kbd>。Mac 上有兩個做法，選一個順手的用就好。</p>
+<div class="swap">
+<div class="was">
+<span class="lbl">用組合鍵</span>
+<p>按 <kbd>Control</kbd> 加 <kbd>空白鍵</kbd>，在你裝的輸入法之間切換。</p>
+<p>裝了三種以上輸入法的話，這個鍵是「上一個」，會在最近用的兩種之間來回跳。</p>
+</div>
+<div class="now">
+<span class="lbl">用 Caps Lock（推薦）</span>
+<p>直接按 <kbd>Caps Lock</kbd> 就能在中文和英文之間切換，一顆鍵解決，不用按組合。</p>
+<p>要打全大寫的話，把 <kbd>Caps Lock</kbd> 按住不放一秒鐘，燈亮起來就是大寫鎖定。</p>
+</div>
+</div>
+</div><div class="sec">
+<div class="warn">
+<span class="tag">如果 Caps Lock 沒有反應</span>
+<p>表示此功能尚未開啟。請打開「系統設定」，前往：</p>
+<p><span class="path">系統設定 <i>›</i> 鍵盤 <i>›</i> 文字輸入 <i>›</i> 輸入方式 <i>›</i> 編輯</span></p>
+<p>開啟「使用大寫鎖定鍵來切換輸入方式」即可。</p>
+</div>
+</div><div class="sec">
+<h3 id="c2-h5">忘記快速鍵的時候，看選單列</h3>
+<p>Mac 有一個 Windows 沒有的好處：<strong>每個功能旁邊都寫著它的快速鍵</strong>。不用背，用久了自然會記得。</p>
+<p>打開任何一個程式，看螢幕最上面那排選單。點開「檔案」或「編輯」，右邊那一欄小小的符號就是快速鍵。<kbd>⌘</kbd> 是 Command、<kbd>⌥</kbd> 是 Option、<kbd>⇧</kbd> 是 Shift、<kbd>⌃</kbd> 是 Control。</p>
+<div class="metaphor">
+<span class="tag">用生活來想</span>
+<p>就像餐廳菜單上每道菜旁邊都標了編號。你不需要背編號，點菜的時候看一眼就好，點久了自然記得「三號是牛肉麵」。</p>
+</div>
+<div class="faq">
+<details>
+<summary>我用的是外接的 Windows 鍵盤，怎麼辦</summary>
+<div class="a"><p>可以直接用，位置會自動對應：<kbd>Windows</kbd> 鍵當成 <kbd>Command</kbd>，<kbd>Alt</kbd> 鍵當成 <kbd>Option</kbd>。位置若不順手，可前往<span class="path">系統設定 <i>›</i> 鍵盤 <i>›</i> 鍵盤快速鍵 <i>›</i> 變更鍵</span>，將個別按鍵自訂為合適的功能。</p></div>
+</details>
+<details>
+<summary>Mac 鍵盤上沒有 Home、End、Page Up 這幾顆</summary>
+<div class="a"><p>筆電鍵盤確實沒有，改用 <kbd>fn</kbd> 加方向鍵：<kbd>fn</kbd> 加左是 Home、<kbd>fn</kbd> 加右是 End、<kbd>fn</kbd> 加上是 Page Up、<kbd>fn</kbd> 加下是 Page Down。</p></div>
+</details>
+<details>
+<summary>按了 F1 到 F12，跑出來的是亮度和音量</summary>
+<div class="a"><p>Mac 預設把最上面那排當成功能鍵在用。要它們變回 F1 到 F12，按住 <kbd>fn</kbd> 再按。想固定作為 F 鍵使用，可前往<span class="path">系統設定 <i>›</i> 鍵盤 <i>›</i> 鍵盤快速鍵 <i>›</i> 功能鍵</span>，開啟「使用 F1、F2 等按鍵作為標準功能鍵」。</p></div>
+</details>
+</div>
+</div>
+<section class="recap rv" aria-label="這一章做完了嗎"><p class="lab">做完打勾・第 02 章</p><ul class="chk"><li><label><input type="checkbox" data-k="win-1-0"><span class="bx" aria-hidden="true"></span><span class="tx">找到空白鍵旁邊的 Command 鍵</span></label></li><li><label><input type="checkbox" data-k="win-1-1"><span class="bx" aria-hidden="true"></span><span class="tx">用 Command 加 C、V 複製貼上一次</span></label></li><li><label><input type="checkbox" data-k="win-1-2"><span class="bx" aria-hidden="true"></span><span class="tx">試一次用 Caps Lock 切換中英文</span></label></li></ul></section>
+<nav class="chend" aria-label="讀完這一章"><p class="done">讀完第 02 章了</p><p class="nxl">下一步</p><a class="btn btn-primary btn-block" style="--nc:#2E7A4C" href="#ch-3"><span class="t"><small>下一章</small><span>03　沒有開始功能表的桌面</span></span><svg class="ic fw" aria-hidden="true"><use href="#v-fw"/></svg></a><a class="btn btn-tertiary prev " href="#ch-1"><svg class="ic bk" aria-hidden="true"><use href="#v-bk"/></svg><span class="lb">上一章：01 先看這張速查表</span></a></nav>
+</section><section class="ch" style="--cc:#2E7A4C" id="ch-3" data-no="03" data-total="10" data-title="沒有開始功能表的桌面">
+<div class="spread" style="--lt:#E0F0E6"><header class="chhead rv"><span class="big cnt" data-n="3" aria-hidden="true">03</span><p class="kick"><span class="no">第 03 章</span><span class="of">共 10 章</span></p>
+<h2>沒有開始功能表的桌面</h2><p class="lead">第一次看 Mac 的桌面，會覺得少了東西：左下角沒有開始按鈕，下面那排也不太像工作列。其實該有的都有，只是換了位置。</p></header><div class="rv" style="--d:2"><svg class="art spread-art" viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><clipPath id="spwin2"><rect x="20" y="20" width="380" height="260" rx="24"/></clipPath><g clip-path="url(#spwin2)"><rect x="20" y="20" width="380" height="260" rx="24" fill="#FFFFFF"/><rect x="20" y="236" width="380" height="44" fill="#D9B98C"/><rect x="20" y="268" width="380" height="12" fill="#B98F5C"/></g><rect x="65.0" y="101.6" width="210" height="134.4" rx="7.3500000000000005" fill="#1B1E23"/><rect x="71.3" y="107.89999999999999" width="197.4" height="118.65" fill="#EAF0F8"/><path d="M71.3 190.95499999999998 C120.65 169.598,160.13 181.463,193.688 173.1575 S248.95999999999998 162.47899999999998,268.7 169.598 V226.55 H71.3Z" fill="#DCE7F7"/><path d="M71.3 205.19299999999998 C130.51999999999998 190.95499999999998,179.87 202.82,225.272 193.32799999999997 S268.7 195.701,268.7 195.701 V226.55 H71.3Z" fill="#C4D6EE"/><rect x="71.3" y="107.89999999999999" width="197.4" height="6.52575" fill="#FFFFFF" opacity=".92"/><rect x="77.222" y="110.1840125" width="9.870000000000001" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="91.03999999999999" y="110.1840125" width="7.896000000000001" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="104.858" y="110.1840125" width="8.883" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="118.676" y="110.1840125" width="7.896000000000001" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="241.06400000000002" y="110.1840125" width="19.740000000000002" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="120.65" y="211.1255" width="98.7" height="11.865000000000002" rx="3.5595000000000003" fill="#FFFFFF" opacity=".75"/><rect x="125.51255" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#1F5FBF"/><rect x="138.9179" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#3BA55C"/><rect x="152.32325" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#F2C14E"/><rect x="165.7286" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#B8410E"/><rect x="179.13395" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#7A3FC0"/><rect x="192.53930000000003" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#4F8FE6"/><rect x="205.94465000000002" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#7C8591"/><circle cx="170" cy="104.75" r="0.84" fill="#3A3F47"/><path d="M48.2 236 H291.8 L287.6 243.35 Q170 245.1875 52.400000000000006 243.35Z" fill="#C9CDD3"/><rect x="151.1" y="236" width="37.8" height="2.9400000000000004" rx="1.4700000000000002" fill="#9EA3AB"/><rect x="52.400000000000006" y="243.35" width="235.2" height="1.68" rx="2" fill="#9EA3AB" opacity=".6"/><circle cx="170" cy="163.5" r="38" fill="#000" opacity=".10"/><circle cx="170" cy="160" r="38" fill="#fff"/><g transform="translate(141.2 131.2) scale(.36)"><rect x="16" y="22" width="128" height="88" rx="10" stroke="#2E7A4C" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 38 H144" stroke="#2E7A4C" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="34" y="118" width="92" height="24" rx="10" stroke="#2E7A4C" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="58" cy="130" r="1" stroke="#2E7A4C" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="80" cy="130" r="1" stroke="#2E7A4C" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="102" cy="130" r="1" stroke="#2E7A4C" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g><path d="M328 236 V204 Q328 198 334 198 H362 Q368 198 368 204 V236Z" fill="#E0F0E6" stroke="#111418" stroke-width="2.5"/><path d="M368 208 h6 a10 10 0 0 1 0 20 h-6" stroke="#111418" stroke-width="2.5" fill="none"/><rect x="328" y="212" width="40" height="7" fill="#2E7A4C"/><path d="M340 188 c-5 -8 5 -12 0 -20 M354 188 c-5 -8 5 -12 0 -20" stroke="#111418" stroke-width="3" fill="none" stroke-linecap="round" opacity=".35"/><circle cx="340" cy="74" r="30" fill="#2E7A4C"/></svg></div></div>
+<aside class="key rv" aria-label="這一章的重點"><p class="lab">這一章的重點</p><p class="kq">Windows 集中在左下角的東西，Mac 拆成上下兩條：上面是選單列，下面是 Dock。</p></aside>
+<nav class="outline" aria-label="這一章的段落"><p class="lab">這一章分 5 段</p><ol><li><a href="#c3-h1">桌面三個區域的對應</a></li><li><a href="#c3-h2">選單列：Mac 最不一樣的一件事</a></li><li><a href="#c3-h3">Dock 不完全等於工作列</a></li><li><a href="#c3-h4">取代開始功能表的兩個工具</a></li><li><a href="#c3-h5">幾個「它去哪了」的答案</a></li></ol></nav>
+<div class="sec">
+<p class="punch">Windows 的東西集中在左下角，Mac 拆成上下兩條：上面是選單列，下面是 Dock。</p>
+<figure class="dia wide">
+<img alt="Windows 桌面與 Mac 桌面的並排對照圖，標出開始功能表對應 Spotlight 與 App、工作列對應 Dock、通知區域對應選單列右側" src="img/fig-windows-03-1.png"/>
+<figcaption><span class="fno">圖 03-1</span>上面是你熟悉的 Windows 桌面，下面是 Mac。三個編號是三組對應關係，下面一項一項說。</figcaption>
+</figure>
+</div><div class="sec">
+<h3 id="c3-h1">桌面三個區域的對應</h3>
+<div class="tbl"><table class="vs">
+<thead>
+<tr><th>這一區負責</th><th>以前在 Windows</th><th>現在在 Mac</th></tr>
+</thead>
+<tbody>
+<tr>
+<td data-l="這一區負責">找程式、找檔案</td>
+<td data-l="以前在 Windows">左下角的開始功能表，打字搜尋</td>
+<td data-l="現在在 Mac"><kbd>Command</kbd> 加 <kbd>空白鍵</kbd> 叫出 Spotlight，打字搜尋</td>
+</tr>
+<tr>
+<td data-l="這一區負責">看所有裝了什麼</td>
+<td data-l="以前在 Windows">開始功能表的程式清單</td>
+<td data-l="現在在 Mac">Dock 上的「App」，或 Finder 側邊欄的「應用程式」</td>
+</tr>
+<tr>
+<td data-l="這一區負責">切換和固定常用程式</td>
+<td data-l="以前在 Windows">下方工作列</td>
+<td data-l="現在在 Mac">下方的 Dock</td>
+</tr>
+<tr>
+<td data-l="這一區負責">音量、Wi-Fi、電池</td>
+<td data-l="以前在 Windows">右下角通知區域</td>
+<td data-l="現在在 Mac">右上角選單列，開關集中在「控制中心」</td>
+</tr>
+<tr>
+<td data-l="這一區負責">這個程式的功能選單</td>
+<td data-l="以前在 Windows">每個視窗自己上面那排</td>
+<td data-l="現在在 Mac">螢幕最上面那排，會跟著你現在用的程式換</td>
+</tr>
+</tbody>
+</table></div>
+</div><div class="sec">
+<h3 id="c3-h2">選單列：Mac 最不一樣的一件事</h3>
+<p class="note">這一點值得單獨講，因為它跟 Windows 的邏輯真的不同，很多人用了半年才發現。</p>
+<div class="swap">
+<div class="was">
+<span class="lbl">Windows 的做法</span>
+<p>每個視窗自己頭上有一排「檔案、編輯、檢視」。開三個視窗，就有三排選單。</p>
+<p>要用哪個程式的功能，就去那個視窗上面找。</p>
+</div>
+<div class="now">
+<span class="lbl">Mac 的做法</span>
+<p>整個螢幕最上面只有一排選單，而且<strong>它顯示的是你現在正在用的那個程式</strong>。</p>
+<p>點一下另一個視窗，最上面那排的內容就整個換掉了。左邊第二個字就是程式名稱，看那裡就知道現在是誰。</p>
+</div>
+</div>
+</div><div class="sec">
+<div class="metaphor">
+<span class="tag">用生活來想</span>
+<p>像是會議室門口的那塊電子看板。房間只有一塊看板，上面寫的是「現在裡面在開什麼會」。換一組人進去，看板就換內容。你不會期待每張桌子上都各有一塊。</p>
+</div>
+<div class="warn">
+<span class="tag">找不到功能的時候，先看左上角</span>
+<p>剛換過來常會好奇「這個程式的設定在哪裡？」，其實是在螢幕最上方。設定不在視窗內，而是在最上面那排選單、程式名稱的下拉選單裡，通常稱為「設定⋯」。所有 Mac 程式都維持相同邏輯。</p>
+</div>
+</div><div class="sec">
+<h3 id="c3-h3">Dock 不完全等於工作列</h3>
+<p>長得像，但有一個關鍵差別：<strong>Dock 上有圖示，不代表那個程式正在執行。</strong></p>
+<div class="tbl"><table class="vs">
+<thead>
+<tr><th>這件事</th><th>以前在 Windows</th><th>現在在 Mac</th></tr>
+</thead>
+<tbody>
+<tr>
+<td data-l="這件事">怎麼知道程式在跑</td>
+<td data-l="以前在 Windows">工作列上有沒有那個按鈕</td>
+<td data-l="現在在 Mac">看圖示<strong>下方有沒有一個小點</strong></td>
+</tr>
+<tr>
+<td data-l="這件事">把常用程式放上去</td>
+<td data-l="以前在 Windows">右鍵選「釘選到工作列」</td>
+<td data-l="現在在 Mac">把 App 直接拖到 Dock 上，或右鍵選「保留在 Dock 上」</td>
+</tr>
+<tr>
+<td data-l="這件事">拿掉不要的</td>
+<td data-l="以前在 Windows">右鍵選「取消釘選」</td>
+<td data-l="現在在 Mac">右鍵選「從 Dock 中移除」，或直接拖出 Dock 往桌面一丟</td>
+</tr>
+<tr>
+<td data-l="這件事">右邊那一區</td>
+<td data-l="以前在 Windows">通知區域的小圖示</td>
+<td data-l="現在在 Mac">最近用過的 App、下載項目和垃圾桶</td>
+</tr>
+</tbody>
+</table></div>
+<p class="note">垃圾桶在 Dock 最右邊，不在桌面上。這也是常找不到的東西之一。</p>
+</div><div class="sec">
+<h3 id="c3-h4">取代開始功能表的兩個工具</h3>
+<p class="note">Windows 找東西只有一個入口，Mac 拆成兩個，各有各的場合。</p>
+<ol class="steps cols">
+<li>
+<span class="t">Spotlight：知道名字就用它</span>
+<span class="d">按 <kbd>Command</kbd> 加 <kbd>空白鍵</kbd>，打前兩三個字，按 <kbd>Return</kbd>。程式、檔案、信件、設定選項都找得到，還能直接算數學和換匯率。這是 Mac 上最好用的一招，建議從第一天就開始用。</span>
+</li>
+<li>
+<span class="t">「App」：想用眼睛慢慢找就用它</span>
+<span class="d">Dock 上有一個由小方格組成的圖示，叫「App」。點下去會蓋滿整個螢幕，列出所有裝好的程式，像手機的主畫面一樣。想不起來名字、只記得圖示長什麼樣的時候用這個。</span>
+</li>
+<li>
+<span class="t">四指往上滑：看現在開了哪些視窗</span>
+<span class="d">四根手指在觸控式軌跡板上往上滑，所有開著的視窗會攤開來排在螢幕上，這叫「指揮中心」。等於 Windows 的工作檢視（<kbd>Win</kbd> 加 <kbd>Tab</kbd>），視窗開很多的時候特別好用。</span>
+</li>
+</ol>
+</div><div class="sec">
+<h3 id="c3-h5">幾個「它去哪了」的答案</h3>
+<div class="faq">
+<details>
+<summary>「我的電腦」在哪裡</summary>
+<div class="a"><p>Mac 沒有這個圖示，因為你平常不需要它。你的檔案在 Finder 側邊欄的「桌面」「文件」「下載項目」裡，直接點就到。真的想看整顆硬碟，在 Finder 選單列點「前往」再選「電腦」。第 06 章會完整說明。</p></div>
+</details>
+<details>
+<summary>「顯示桌面」的按鈕在哪</summary>
+<div class="a"><p>Windows 是工作列最右邊那一小條。Mac 是用手勢：<strong>拇指和另外三根手指張開</strong>，所有視窗會退到旁邊，露出桌面。再捏回來就復原。</p></div>
+</details>
+<details>
+<summary>怎麼關機、重新開機</summary>
+<div class="a"><p>點螢幕左上角的蘋果圖示，裡面有「睡眠」「重新開機」「關機」。不過 Mac 平常不太需要關機，闔上螢幕它就睡了，開蓋馬上能用。</p></div>
+</details>
+<details>
+<summary>桌面上為什麼幾乎沒有圖示</summary>
+<div class="a"><p>Mac 桌面預設是乾淨的，內建硬碟、網路、資源回收筒都不會放在上面。你自己存到桌面的檔案會出現，插上的外接隨身碟也會出現在桌面。不想看到它，在 Finder 選單列點「Finder」再選「設定⋯」，在「一般」裡取消勾選「外接磁碟」。</p></div>
+</details>
+</div>
+</div>
+<section class="recap rv" aria-label="這一章做完了嗎"><p class="lab">做完打勾・第 03 章</p><ul class="chk"><li><label><input type="checkbox" data-k="win-2-0"><span class="bx" aria-hidden="true"></span><span class="tx">用 Command 加空白鍵叫出 Spotlight</span></label></li><li><label><input type="checkbox" data-k="win-2-1"><span class="bx" aria-hidden="true"></span><span class="tx">在 Dock 認出還開著的程式（小點）</span></label></li><li><label><input type="checkbox" data-k="win-2-2"><span class="bx" aria-hidden="true"></span><span class="tx">四指往上滑看一次所有視窗</span></label></li></ul></section>
+<nav class="chend" aria-label="讀完這一章"><p class="done">讀完第 03 章了</p><p class="nxl">下一步</p><a class="btn btn-primary btn-block" style="--nc:#7A3FC0" href="#ch-4"><span class="t"><small>下一章</small><span>04　右鍵在哪、捲動反了</span></span><svg class="ic fw" aria-hidden="true"><use href="#v-fw"/></svg></a><a class="btn btn-tertiary prev " href="#ch-2"><svg class="ic bk" aria-hidden="true"><use href="#v-bk"/></svg><span class="lb">上一章：02 Ctrl 換成了 Command</span></a></nav>
+</section><section class="ch" style="--cc:#7A3FC0" id="ch-4" data-no="04" data-total="10" data-title="右鍵在哪、捲動反了">
+<div class="spread" style="--lt:#EEE5F9"><header class="chhead rv"><span class="big cnt" data-n="4" aria-hidden="true">04</span><p class="kick"><span class="no">第 04 章</span><span class="of">共 10 章</span></p>
+<h2>右鍵在哪、捲動反了</h2><p class="lead">觸控式軌跡板上看不到左右實體鍵，滑動手感也與以往不同。這兩項操作是換過來最值得先熟悉的重點，五分鐘就能輕鬆調整順手。</p></header><div class="rv" style="--d:2"><svg class="art spread-art" viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><clipPath id="spwin3"><rect x="20" y="20" width="380" height="260" rx="24"/></clipPath><g clip-path="url(#spwin3)"><rect x="20" y="20" width="380" height="260" rx="24" fill="#FFFFFF"/><rect x="20" y="236" width="380" height="44" fill="#D9B98C"/><rect x="20" y="268" width="380" height="12" fill="#B98F5C"/></g><rect x="65.0" y="101.6" width="210" height="134.4" rx="7.3500000000000005" fill="#1B1E23"/><rect x="71.3" y="107.89999999999999" width="197.4" height="118.65" fill="#EAF0F8"/><path d="M71.3 190.95499999999998 C120.65 169.598,160.13 181.463,193.688 173.1575 S248.95999999999998 162.47899999999998,268.7 169.598 V226.55 H71.3Z" fill="#DCE7F7"/><path d="M71.3 205.19299999999998 C130.51999999999998 190.95499999999998,179.87 202.82,225.272 193.32799999999997 S268.7 195.701,268.7 195.701 V226.55 H71.3Z" fill="#C4D6EE"/><rect x="71.3" y="107.89999999999999" width="197.4" height="6.52575" fill="#FFFFFF" opacity=".92"/><rect x="77.222" y="110.1840125" width="9.870000000000001" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="91.03999999999999" y="110.1840125" width="7.896000000000001" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="104.858" y="110.1840125" width="8.883" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="118.676" y="110.1840125" width="7.896000000000001" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="241.06400000000002" y="110.1840125" width="19.740000000000002" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="120.65" y="211.1255" width="98.7" height="11.865000000000002" rx="3.5595000000000003" fill="#FFFFFF" opacity=".75"/><rect x="125.51255" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#1F5FBF"/><rect x="138.9179" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#3BA55C"/><rect x="152.32325" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#F2C14E"/><rect x="165.7286" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#B8410E"/><rect x="179.13395" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#7A3FC0"/><rect x="192.53930000000003" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#4F8FE6"/><rect x="205.94465000000002" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#7C8591"/><circle cx="170" cy="104.75" r="0.84" fill="#3A3F47"/><path d="M48.2 236 H291.8 L287.6 243.35 Q170 245.1875 52.400000000000006 243.35Z" fill="#C9CDD3"/><rect x="151.1" y="236" width="37.8" height="2.9400000000000004" rx="1.4700000000000002" fill="#9EA3AB"/><rect x="52.400000000000006" y="243.35" width="235.2" height="1.68" rx="2" fill="#9EA3AB" opacity=".6"/><circle cx="170" cy="163.5" r="38" fill="#000" opacity=".10"/><circle cx="170" cy="160" r="38" fill="#fff"/><g transform="translate(141.2 131.2) scale(.36)"><rect x="48" y="22" width="64" height="112" rx="32" stroke="#7A3FC0" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M80 22 V62 M48 62 H112" stroke="#7A3FC0" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M138 52 V96 M130 60 l8 -10 l8 10 M130 88 l8 10 l8 -10" stroke="#7A3FC0" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g><rect x="318" y="190" width="40" height="46" rx="20" fill="#fff" stroke="#111418" stroke-width="3"/><path d="M338 190 V210" stroke="#111418" stroke-width="3"/><circle cx="340" cy="74" r="30" fill="#7A3FC0"/></svg></div></div>
+<aside class="key rv" aria-label="這一章的重點"><p class="lab">這一章的重點</p><p class="kq">右鍵變成「兩根手指按一下」。捲動方向建議體驗三天，再決定是否改回傳統習慣。</p></aside>
+<nav class="outline" aria-label="這一章的段落"><p class="lab">這一章分 4 段</p><ol><li><a href="#c4-h1">右鍵的三種按法，挑一種</a></li><li><a href="#c4-h2">捲動方向：先決定要不要改</a></li><li><a href="#c4-h3">四個值得學的手勢</a></li><li><a href="#c4-h4">覺得游標太慢或太快</a></li></ol></nav>
+<div class="sec" id="q-rightclick">
+<p class="punch">右鍵沒有不見，它變成「用兩根手指按一下」。</p>
+<figure class="dia">
+<img alt="觸控式軌跡板示意圖，兩根手指同時放在板子上按一下，等於按滑鼠右鍵" src="img/fig-windows-04-1.png"/>
+<figcaption><span class="fno">圖 04-1</span>兩指同時放在板子上，往下按到有喀一聲。不需要按特定位置，整片板子哪裡按都算。</figcaption>
+</figure>
+<p>如果你比較習慣「點一下」而不是「按下去」，可以改成兩指輕點就好，不用真的壓下去。設定的地方在下面。</p>
+</div><div class="sec">
+<h3 id="c4-h1">右鍵的三種按法，挑一種</h3>
+<div class="tbl"><table class="vs">
+<thead>
+<tr><th>你的裝置</th><th>以前在 Windows</th><th>現在在 Mac</th></tr>
+</thead>
+<tbody>
+<tr>
+<td data-l="你的裝置">筆電的觸控板</td>
+<td data-l="以前在 Windows">板子右下角，或右鍵按鈕</td>
+<td data-l="現在在 Mac">兩根手指按一下（預設）</td>
+</tr>
+<tr>
+<td data-l="你的裝置">Apple 觸控滑鼠（巧控滑鼠）</td>
+<td data-l="以前在 Windows">滑鼠右鍵</td>
+<td data-l="現在在 Mac">滑鼠表面偏右的位置按一下</td>
+</tr>
+<tr>
+<td data-l="你的裝置">任何一般滑鼠</td>
+<td data-l="以前在 Windows">滑鼠右鍵</td>
+<td data-l="現在在 Mac">一樣按右鍵，可以直接用</td>
+</tr>
+<tr>
+<td data-l="你的裝置">不想用兩指的話</td>
+<td data-l="以前在 Windows">不適用</td>
+<td data-l="現在在 Mac">按住 <kbd>Control</kbd> 再點一下，效果一樣</td>
+</tr>
+</tbody>
+</table></div>
+<div class="warn">
+<span class="tag">觸控滑鼠（巧控滑鼠）第一次用要注意</span>
+<p>觸控滑鼠整片表面都是按鈕，看不出左右。預設是有分左右的，按偏右邊就是右鍵。如果按了沒反應，可前往<span class="path">系統設定 <i>›</i> 滑鼠</span>，確認「輔助按鈕」設為「按一下右側」。</p>
+</div>
+</div><div class="sec" id="q-scroll">
+<h3 id="c4-h2">捲動方向：先決定要不要改</h3>
+<p class="note">這是從 Windows 換過來最值得先調整的設定。花一分鐘挑選最習慣的手感，用起來就順心順手。</p>
+<figure class="dia wide">
+<img alt="捲動方向對照圖，左邊是 Windows 的滾輪往下捲畫面往下，右邊是 Mac 預設的兩指往下滑內容跟著往下走" src="img/fig-windows-04-2.png"/>
+<figcaption><span class="fno">圖 04-2</span>Mac 預設的邏輯是「手指推的是紙，不是捲軸」。手指往下滑，紙就往下走，所以你會看到上面的內容。</figcaption>
+</figure>
+</div><div class="sec">
+<div class="swap">
+<div class="was">
+<span class="lbl">維持預設（自然捲動）</span>
+<p>與 iPhone、iPad 的滑動方向完全一致。若平常常用手機，兩三天就能自然適應，在手機與電腦之間切換更順暢一致。</p>
+<p>建議先體驗三天，感受直覺滑動手感。</p>
+</div>
+<div class="now">
+<span class="lbl">改回 Windows 的方向</span>
+<p><b>觸控式軌跡板</b><br>至「系統設定」›「觸控式軌跡板」›「捲動與縮放」，關閉「自然捲動」。</p>
+<p><b>外接滑鼠</b><br>至「系統設定」›「滑鼠」關閉「自然捲動」<span class="nw">（兩者開關各自獨立）</span>。</p>
+</div>
+</div>
+</div><div class="sec">
+<h3 id="c4-h3">四個值得學的手勢</h3>
+<p class="note">Windows 的觸控板手勢多半可有可無，Mac 上這四個是真的每天都會用到。</p>
+<ol class="steps">
+<li>
+<span class="t">兩指上下滑：捲動頁面</span>
+<span class="d">取代滑鼠滾輪。左右滑則是回上一頁、下一頁，在瀏覽器裡特別好用，比找返回按鈕快。</span>
+</li>
+<li>
+<span class="t">兩指捏合或張開：縮放</span>
+<span class="d">和手機一樣。看照片、看 PDF、放大網頁字體都用它，不用再按 <kbd>Ctrl</kbd> 加滾輪。</span>
+</li>
+<li>
+<span class="t">四指往上滑：看所有開著的視窗</span>
+<span class="d">這是「指揮中心」。視窗開太多找不到的時候滑一下，全部攤開讓你挑。等於 Windows 的工作檢視（Win 加 Tab）。</span>
+</li>
+<li>
+<span class="t">四指左右滑：切換全螢幕的程式</span>
+<span class="d">把程式切成全螢幕之後，它會變成一個獨立的桌面。四指左右滑就在這些桌面之間移動，等於 Windows 的虛擬桌面切換。</span>
+</li>
+</ol>
+<p>全部的手勢清單在<span class="path">系統設定 <i>›</i> 觸控式軌跡板</span>，每一項旁邊都有動畫示範，看得到才學得起來。</p>
+</div><div class="sec">
+<h3 id="c4-h4">覺得游標太慢或太快</h3>
+<p>這也是換機第一天常有的感覺，因為兩邊出廠的預設速度不一樣。</p>
+<div class="cards c2">
+<div class="card">
+<h4>調游標速度</h4>
+<p><span class="path">系統設定 <i>›</i> 觸控式軌跡板 <i>›</i> 點按</span></p>
+<p>調整最上方的「軌跡速度」；若使用外接滑鼠，則在「系統設定 › 滑鼠」相同位置調整。</p>
+</div>
+<div class="card">
+<h4>改成輕點就好，不用壓</h4>
+<p>同一頁裡把「點一下來選按」打開。之後手指輕碰就等於按一下，用久了手比較不累。</p>
+</div>
+</div>
+<div class="faq">
+<details>
+<summary>可以用外接的 Windows 滑鼠嗎</summary>
+<div class="a"><p>可以，插上去就能用，左右鍵和滾輪都正常。有些滑鼠的側邊按鍵要裝廠商的驅動程式才會動，那個要去該廠牌的網站下載 Mac 版。</p></div>
+</details>
+<details>
+<summary>滑鼠滾輪的方向也可以調整嗎</summary>
+<div class="a"><p>可以。滑鼠和觸控式軌跡板的自然捲動是兩個獨立的開關，調整觸控板不會連動到滑鼠，可以在<span class="path">系統設定 <i>›</i> 滑鼠</span>裡依照個人習慣開啟或關閉。</p></div>
+</details>
+<details>
+<summary>兩指按了跳出選單，但選項比 Windows 少很多</summary>
+<div class="a"><p>正常。Mac 的右鍵選單刻意保持精簡。按住 <kbd>Option</kbd> 再按右鍵，選單會多出一批進階選項，例如「拷貝為路徑名稱」。</p></div>
+</details>
+</div>
+</div>
+<section class="recap rv" aria-label="這一章做完了嗎"><p class="lab">做完打勾・第 04 章</p><ul class="chk"><li><label><input type="checkbox" data-k="win-3-0"><span class="bx" aria-hidden="true"></span><span class="tx">兩指按一下叫出右鍵選單</span></label></li><li><label><input type="checkbox" data-k="win-3-1"><span class="bx" aria-hidden="true"></span><span class="tx">決定好捲動方向</span></label></li><li><label><input type="checkbox" data-k="win-3-2"><span class="bx" aria-hidden="true"></span><span class="tx">調好游標速度</span></label></li></ul></section>
+<nav class="chend" aria-label="讀完這一章"><p class="done">讀完第 04 章了</p><p class="nxl">下一步</p><a class="btn btn-primary btn-block" style="--nc:#1F5FBF" href="#ch-5"><span class="t"><small>下一章</small><span>05　紅色叉叉不是關程式</span></span><svg class="ic fw" aria-hidden="true"><use href="#v-fw"/></svg></a><a class="btn btn-tertiary prev " href="#ch-3"><svg class="ic bk" aria-hidden="true"><use href="#v-bk"/></svg><span class="lb">上一章：03 沒有開始功能表的桌面</span></a></nav>
+</section><section class="ch" style="--cc:#1F5FBF" id="ch-5" data-no="05" data-total="10" data-title="紅色叉叉不是關程式">
+<div class="spread" style="--lt:#E3ECF9"><header class="chhead rv"><span class="big cnt" data-n="5" aria-hidden="true">05</span><p class="kick"><span class="no">第 05 章</span><span class="of">共 10 章</span></p>
+<h2>紅色叉叉不是關程式</h2><p class="lead">視窗右上角的三顆按鈕跑到左上角，還變成了三個小圓點。位置換了不打緊，重點是<strong>紅色那顆的意思跟 Windows 不一樣</strong>。</p></header><div class="rv" style="--d:2"><svg class="art spread-art" viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><clipPath id="spwin4"><rect x="20" y="20" width="380" height="260" rx="24"/></clipPath><g clip-path="url(#spwin4)"><rect x="20" y="20" width="380" height="260" rx="24" fill="#FFFFFF"/><rect x="20" y="236" width="380" height="44" fill="#D9B98C"/><rect x="20" y="268" width="380" height="12" fill="#B98F5C"/></g><rect x="65.0" y="101.6" width="210" height="134.4" rx="7.3500000000000005" fill="#1B1E23"/><rect x="71.3" y="107.89999999999999" width="197.4" height="118.65" fill="#EAF0F8"/><path d="M71.3 190.95499999999998 C120.65 169.598,160.13 181.463,193.688 173.1575 S248.95999999999998 162.47899999999998,268.7 169.598 V226.55 H71.3Z" fill="#DCE7F7"/><path d="M71.3 205.19299999999998 C130.51999999999998 190.95499999999998,179.87 202.82,225.272 193.32799999999997 S268.7 195.701,268.7 195.701 V226.55 H71.3Z" fill="#C4D6EE"/><rect x="71.3" y="107.89999999999999" width="197.4" height="6.52575" fill="#FFFFFF" opacity=".92"/><rect x="77.222" y="110.1840125" width="9.870000000000001" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="91.03999999999999" y="110.1840125" width="7.896000000000001" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="104.858" y="110.1840125" width="8.883" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="118.676" y="110.1840125" width="7.896000000000001" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="241.06400000000002" y="110.1840125" width="19.740000000000002" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="120.65" y="211.1255" width="98.7" height="11.865000000000002" rx="3.5595000000000003" fill="#FFFFFF" opacity=".75"/><rect x="125.51255" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#1F5FBF"/><rect x="138.9179" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#3BA55C"/><rect x="152.32325" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#F2C14E"/><rect x="165.7286" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#B8410E"/><rect x="179.13395" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#7A3FC0"/><rect x="192.53930000000003" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#4F8FE6"/><rect x="205.94465000000002" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#7C8591"/><circle cx="170" cy="104.75" r="0.84" fill="#3A3F47"/><path d="M48.2 236 H291.8 L287.6 243.35 Q170 245.1875 52.400000000000006 243.35Z" fill="#C9CDD3"/><rect x="151.1" y="236" width="37.8" height="2.9400000000000004" rx="1.4700000000000002" fill="#9EA3AB"/><rect x="52.400000000000006" y="243.35" width="235.2" height="1.68" rx="2" fill="#9EA3AB" opacity=".6"/><circle cx="170" cy="163.5" r="38" fill="#000" opacity=".10"/><circle cx="170" cy="160" r="38" fill="#fff"/><g transform="translate(141.2 131.2) scale(.36)"><rect x="18" y="30" width="124" height="100" rx="12" stroke="#1F5FBF" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M18 56 H142" stroke="#1F5FBF" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="38" cy="43" r="4" stroke="#1F5FBF" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="56" cy="43" r="4" stroke="#1F5FBF" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="74" cy="43" r="4" stroke="#1F5FBF" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 80 l32 32 M96 80 l-32 32" stroke="#1F5FBF" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g><path d="M328 236 V204 Q328 198 334 198 H362 Q368 198 368 204 V236Z" fill="#E3ECF9" stroke="#111418" stroke-width="2.5"/><path d="M368 208 h6 a10 10 0 0 1 0 20 h-6" stroke="#111418" stroke-width="2.5" fill="none"/><rect x="328" y="212" width="40" height="7" fill="#1F5FBF"/><path d="M340 188 c-5 -8 5 -12 0 -20 M354 188 c-5 -8 5 -12 0 -20" stroke="#111418" stroke-width="3" fill="none" stroke-linecap="round" opacity=".35"/><circle cx="340" cy="74" r="30" fill="#1F5FBF"/></svg></div></div>
+<aside class="key rv" aria-label="這一章的重點"><p class="lab">這一章的重點</p><p class="kq">紅色圓點只關掉視窗，程式還在背景跑。要真的結束，按 Command 加 Q。</p></aside>
+<nav class="outline" aria-label="這一章的段落"><p class="lab">這一章分 4 段</p><ol><li><a href="#c5-h1">三顆圓點各是什麼</a></li><li><a href="#c5-h2">想要 Windows 那種「最大化」的話</a></li><li><a href="#c5-h3">怎麼確認程式真的關了</a></li><li><a href="#c5-h4">視窗之間怎麼切</a></li></ol></nav>
+<div class="sec" id="q-quit">
+<p class="punch">紅色只關掉這個視窗，程式還在背景跑。要真的結束，按 Command 加 Q。</p>
+<figure class="dia wide">
+<img alt="Windows 視窗右上角三顆按鈕與 Mac 視窗左上角三個圓點的對照圖，標示紅色關視窗、黃色縮到最小、綠色進入全螢幕" src="img/fig-windows-05-1.png"/>
+<figcaption><span class="fno">圖 05-1</span>三顆圓點平常是灰的，滑鼠移過去才會顯示裡面的符號。左邊紅、中間黃、右邊綠，順序固定不會變。</figcaption>
+</figure>
+</div><div class="sec">
+<h3 id="c5-h1">三顆圓點各是什麼</h3>
+<div class="tbl"><table class="vs">
+<thead>
+<tr><th>這顆按鈕</th><th>以前在 Windows</th><th>現在在 Mac</th></tr>
+</thead>
+<tbody>
+<tr>
+<td data-l="這顆按鈕">紅色（最左邊）</td>
+<td data-l="以前在 Windows">右上角的 <kbd>X</kbd>，按了程式就關了</td>
+<td data-l="現在在 Mac">只關掉這個視窗，程式繼續在背景執行</td>
+</tr>
+<tr>
+<td data-l="這顆按鈕">黃色（中間）</td>
+<td data-l="以前在 Windows">最小化，縮到工作列</td>
+<td data-l="現在在 Mac">縮到最小，縮進 Dock 的右邊那一區</td>
+</tr>
+<tr>
+<td data-l="這顆按鈕">綠色（最右邊）</td>
+<td data-l="以前在 Windows">最大化，填滿桌面但工作列還在</td>
+<td data-l="現在在 Mac">進入全螢幕，連上面那排選單列都會藏起來</td>
+</tr>
+</tbody>
+</table></div>
+<div class="warn">
+<span class="tag">綠色不是「最大化」</span>
+<p>點按綠色圓點會進入「全螢幕模式」，頂部選單列與 Dock 會自動隱藏以提供沉浸閱讀空間。若想退出全螢幕，將滑鼠游標移到螢幕最頂端，選單列便會順暢滑出，再點一下綠色圓點或直接按 <kbd>esc</kbd> 即可返回。</p>
+</div>
+</div><div class="sec">
+<h3 id="c5-h2">想要 Windows 那種「最大化」的話</h3>
+<p>如果習慣視窗填滿桌面、同時保留選單列與 Dock，Mac 提供兩種非常直覺的調整方式：</p>
+<div class="swap">
+<div class="was">
+<span class="lbl">最快：按住 Option 再點綠色</span>
+<p>按住 <kbd>Option</kbd> 不放，綠色圓點裡的符號會變成加號，這時候點下去就是「填滿桌面但選單列還在」，最接近 Windows 的最大化。</p>
+</div>
+<div class="now">
+<span class="lbl">要並排兩個視窗</span>
+<p>把視窗拖到螢幕左邊或右邊的邊緣，放手就會自動貼齊一半，和 Windows 一樣。</p>
+<p>也可以在選單列的「視窗」選單裡找「移動與調整大小」，裡面有「填滿」「左側」「右側」可以選。</p>
+</div>
+</div>
+</div><div class="sec">
+<h3 id="c5-h3">怎麼確認程式真的關了</h3>
+<p class="note">這件事影響的不只是強迫症，程式一直開著會吃電池。</p>
+<ol class="steps">
+<li>
+<span class="t">看 Dock 圖示下面有沒有小點</span>
+<span class="d">有小點就是還在跑。沒有小點，才是真的關掉了。這是最直接的判斷方式，養成掃一眼的習慣。</span>
+</li>
+<li>
+<span class="t">用 Command 加 Q 結束</span>
+<span class="d">在那個程式的視窗上按 <kbd>Command</kbd> 加 <kbd>Q</kbd>，或在選單列點程式名稱、選「結束」。這才等於 Windows 按右上角 <kbd>X</kbd> 的效果。</span>
+</li>
+<li>
+<span class="t">程式沒反應就強制結束</span>
+<span class="d">按 <kbd>Option</kbd> 加 <kbd>Command</kbd> 加 <kbd>esc</kbd>，跳出來的清單選那個未回應的程式，按「強制結束」。這等於 Windows 工作管理員裡的「結束工作」。</span>
+</li>
+<li>
+<span class="t">想看誰在吃資源，用「活動監視器」</span>
+<span class="d">按 <kbd>Command</kbd> 加 <kbd>空白鍵</kbd>，打「活動監視器」。它對應工作管理員看效能的那一部分，可以看 CPU、記憶體、電池用量，也能在這裡結束程式。</span>
+</li>
+</ol>
+</div><div class="sec">
+<h3 id="c5-h4">視窗之間怎麼切</h3>
+<p>Windows 的 <kbd>Alt</kbd> 加 <kbd>Tab</kbd> 是切「視窗」，Mac 的 <kbd>Command</kbd> 加 <kbd>Tab</kbd> 是切「程式」。這個差別會讓人找不到自己剛剛開的那個檔案。</p>
+<div class="tbl"><table class="keys">
+<thead><tr><th>你想做的</th><th>按什麼</th></tr></thead>
+<tbody>
+<tr><td data-l="你想做的">換到另一個程式</td><td data-l="按什麼"><kbd>Command</kbd> 加 <kbd>Tab</kbd></td></tr>
+<tr><td data-l="你想做的">同一個程式的不同視窗之間換</td><td data-l="按什麼"><kbd>Command</kbd> 加 <kbd>`</kbd>（<kbd>Tab</kbd> 上面那顆）</td></tr>
+<tr><td data-l="你想做的">攤開現在所有視窗來挑</td><td data-l="按什麼">四指往上滑</td></tr>
+<tr><td data-l="你想做的">只看這個程式開了哪些視窗</td><td data-l="按什麼"><kbd>Control</kbd> 加 <kbd>下方向鍵</kbd></td></tr>
+</tbody>
+</table></div>
+</div><div class="sec">
+<div class="metaphor">
+<span class="tag">用生活來想</span>
+<p>Windows 像是把所有文件都攤在同一張桌上，<kbd>Alt</kbd> 加 <kbd>Tab</kbd> 是一張一張翻。Mac 是先分成好幾個抽屜，<kbd>Command</kbd> 加 <kbd>Tab</kbd> 換抽屜，換到抽屜之後再挑裡面的文件。</p>
+</div>
+<div class="faq">
+<details>
+<summary>黃色圓點縮起來的視窗，怎麼叫回來</summary>
+<div class="a"><p>它會縮到 Dock 最右邊、垃圾桶左邊那一區，變成一個小縮圖，點一下就回來。找不到的話，用 <kbd>Command</kbd> 加 <kbd>Tab</kbd> 切到那個程式也會回來。</p></div>
+</details>
+<details>
+<summary>關掉所有視窗之後，程式還開著會怎樣</summary>
+<div class="a"><p>不會怎樣，它只是待命，占用的資源很少。不過選單列會一直是那個程式的，容易看錯。介意的話就順手 <kbd>Command</kbd> 加 <kbd>Q</kbd>。</p></div>
+</details>
+<details>
+<summary>為什麼有些程式關掉視窗就真的結束了</summary>
+<div class="a"><p>因為那類程式只有一個視窗，關掉就沒事做了，例如「系統設定」「計算機」。有文件概念的程式（瀏覽器、文書、郵件）才會留在背景。</p></div>
+</details>
+</div>
+</div>
+<section class="recap rv" aria-label="這一章做完了嗎"><p class="lab">做完打勾・第 05 章</p><ul class="chk"><li><label><input type="checkbox" data-k="win-4-0"><span class="bx" aria-hidden="true"></span><span class="tx">用 Command 加 Q 結束一個程式</span></label></li><li><label><input type="checkbox" data-k="win-4-1"><span class="bx" aria-hidden="true"></span><span class="tx">看 Dock 小點確認程式關了</span></label></li><li><label><input type="checkbox" data-k="win-4-2"><span class="bx" aria-hidden="true"></span><span class="tx">記住 Option 加 Command 加 esc 強制結束</span></label></li></ul></section>
+<nav class="chend" aria-label="讀完這一章"><p class="done">讀完第 05 章了</p><p class="nxl">下一步</p><a class="btn btn-primary btn-block" style="--nc:#B8410E" href="#ch-6"><span class="t"><small>下一章</small><span>06　沒有 C 槽，檔案在哪</span></span><svg class="ic fw" aria-hidden="true"><use href="#v-fw"/></svg></a><a class="btn btn-tertiary prev " href="#ch-4"><svg class="ic bk" aria-hidden="true"><use href="#v-bk"/></svg><span class="lb">上一章：04 右鍵在哪、捲動反了</span></a></nav>
+</section><section class="ch" style="--cc:#B8410E" id="ch-6" data-no="06" data-total="10" data-title="沒有 C 槽，檔案在哪">
+<div class="spread" style="--lt:#F8E6DC"><header class="chhead rv"><span class="big cnt" data-n="6" aria-hidden="true">06</span><p class="kick"><span class="no">第 06 章</span><span class="of">共 10 章</span></p>
+<h2>沒有 C 槽，檔案在哪</h2><p class="lead">打開 Finder 卻找不到 C 槽 D 槽，是每個從 Windows 換過來的人的第一個問號。答案是：Mac 也有硬碟，只是它不希望你花時間在那裡面。</p></header><div class="rv" style="--d:2"><svg class="art spread-art" viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><clipPath id="spwin5"><rect x="20" y="20" width="380" height="260" rx="24"/></clipPath><g clip-path="url(#spwin5)"><rect x="20" y="20" width="380" height="260" rx="24" fill="#FFFFFF"/><rect x="20" y="236" width="380" height="44" fill="#D9B98C"/><rect x="20" y="268" width="380" height="12" fill="#B98F5C"/></g><rect x="65.0" y="101.6" width="210" height="134.4" rx="7.3500000000000005" fill="#1B1E23"/><rect x="71.3" y="107.89999999999999" width="197.4" height="118.65" fill="#EAF0F8"/><path d="M71.3 190.95499999999998 C120.65 169.598,160.13 181.463,193.688 173.1575 S248.95999999999998 162.47899999999998,268.7 169.598 V226.55 H71.3Z" fill="#DCE7F7"/><path d="M71.3 205.19299999999998 C130.51999999999998 190.95499999999998,179.87 202.82,225.272 193.32799999999997 S268.7 195.701,268.7 195.701 V226.55 H71.3Z" fill="#C4D6EE"/><rect x="71.3" y="107.89999999999999" width="197.4" height="6.52575" fill="#FFFFFF" opacity=".92"/><rect x="77.222" y="110.1840125" width="9.870000000000001" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="91.03999999999999" y="110.1840125" width="7.896000000000001" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="104.858" y="110.1840125" width="8.883" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="118.676" y="110.1840125" width="7.896000000000001" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="241.06400000000002" y="110.1840125" width="19.740000000000002" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="120.65" y="211.1255" width="98.7" height="11.865000000000002" rx="3.5595000000000003" fill="#FFFFFF" opacity=".75"/><rect x="125.51255" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#1F5FBF"/><rect x="138.9179" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#3BA55C"/><rect x="152.32325" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#F2C14E"/><rect x="165.7286" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#B8410E"/><rect x="179.13395" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#7A3FC0"/><rect x="192.53930000000003" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#4F8FE6"/><rect x="205.94465000000002" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#7C8591"/><circle cx="170" cy="104.75" r="0.84" fill="#3A3F47"/><path d="M48.2 236 H291.8 L287.6 243.35 Q170 245.1875 52.400000000000006 243.35Z" fill="#C9CDD3"/><rect x="151.1" y="236" width="37.8" height="2.9400000000000004" rx="1.4700000000000002" fill="#9EA3AB"/><rect x="52.400000000000006" y="243.35" width="235.2" height="1.68" rx="2" fill="#9EA3AB" opacity=".6"/><circle cx="170" cy="163.5" r="38" fill="#000" opacity=".10"/><circle cx="170" cy="160" r="38" fill="#fff"/><g transform="translate(141.2 131.2) scale(.36)"><rect x="20" y="44" width="120" height="72" rx="12" stroke="#B8410E" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 92 H140" stroke="#B8410E" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="118" cy="104" r="2" stroke="#B8410E" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M36 64 H76" stroke="#B8410E" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g><path d="M328 236 V204 Q328 198 334 198 H362 Q368 198 368 204 V236Z" fill="#F8E6DC" stroke="#111418" stroke-width="2.5"/><path d="M368 208 h6 a10 10 0 0 1 0 20 h-6" stroke="#111418" stroke-width="2.5" fill="none"/><rect x="328" y="212" width="40" height="7" fill="#B8410E"/><path d="M340 188 c-5 -8 5 -12 0 -20 M354 188 c-5 -8 5 -12 0 -20" stroke="#111418" stroke-width="3" fill="none" stroke-linecap="round" opacity=".35"/><circle cx="340" cy="74" r="30" fill="#B8410E"/></svg></div></div>
+<aside class="key rv" aria-label="這一章的重點"><p class="lab">這一章的重點</p><p class="kq">忘掉磁碟機代號。你的東西只在五個資料夾裡：桌面、文件、下載項目、圖片、影片。</p></aside>
+<nav class="outline" aria-label="這一章的段落"><p class="lab">這一章分 5 段</p><ol><li><a href="#c6-h1">Finder 就是檔案總管</a></li><li><a href="#c6-h2">Finder 各部位對應檔案總管的哪一塊</a></li><li><a href="#c6-h3">兩個一定要先打開的設定</a></li><li><a href="#c6-h4">檔案操作對照</a></li><li><a href="#c6-h5">檔案存到哪裡去了</a></li></ol></nav>
+<div class="sec">
+<p class="punch">忘掉磁碟機代號。你的東西只在五個資料夾裡：桌面、文件、下載項目、圖片、影片。</p>
+<figure class="dia wide">
+<img alt="Windows 的 C 槽 D 槽階層與 Mac 使用者資料夾的對照圖，Mac 這邊只顯示桌面、文件、下載項目、圖片、影片五個資料夾" src="img/fig-windows-06-1.png"/>
+<figcaption><span class="fno">圖 06-1</span>左邊是 Windows 你熟悉的樹狀結構，右邊是 Mac。系統檔案不是不存在，是被收起來了，你不會不小心刪到。</figcaption>
+</figure>
+</div><div class="sec" id="q-files">
+<h3 id="c6-h1">Finder 就是檔案總管</h3>
+<p class="note">Dock 最左邊那個藍色笑臉。它會持續常駐，因為它就是桌面與檔案管理本身。</p>
+<figure class="dia wide">
+<img alt="Finder 視窗的各部位標示圖，包含側邊欄、顯示方式切換、搜尋框、路徑列，並標出對應檔案總管的哪個部分" src="img/fig-windows-06-2.png"/>
+<figcaption><span class="fno">圖 06-2</span>四個編號對應下面四段說明。第一次打開建議照著看一遍，之後就很少需要摸索。</figcaption>
+</figure>
+</div><div class="sec">
+<h3 id="c6-h2">Finder 各部位對應檔案總管的哪一塊</h3>
+<div class="tbl"><table class="vs">
+<thead>
+<tr><th>這個部分</th><th>以前在檔案總管</th><th>現在在 Finder</th></tr>
+</thead>
+<tbody>
+<tr>
+<td data-l="這個部分">左邊那一排捷徑</td>
+<td data-l="以前在檔案總管">快速存取</td>
+<td data-l="現在在 Finder">側邊欄，可以把常用資料夾拖進去</td>
+</tr>
+<tr>
+<td data-l="這個部分">顯示方式</td>
+<td data-l="以前在檔案總管">大圖示、詳細資料、清單</td>
+<td data-l="現在在 Finder">圖像、列表、直欄、圖庫共四種</td>
+</tr>
+<tr>
+<td data-l="這個部分">看得到目前路徑</td>
+<td data-l="以前在檔案總管">上方位址列，一直都在</td>
+<td data-l="現在在 Finder">路徑列，<strong>預設關著</strong>，按 <kbd>Option</kbd> 加 <kbd>Command</kbd> 加 <kbd>P</kbd> 打開</td>
+</tr>
+<tr>
+<td data-l="這個部分">直接打路徑跳過去</td>
+<td data-l="以前在檔案總管">在位址列打 <kbd>C:\...</kbd></td>
+<td data-l="現在在 Finder"><kbd>Shift</kbd> 加 <kbd>Command</kbd> 加 <kbd>G</kbd>，叫「前往檔案夾」</td>
+</tr>
+<tr>
+<td data-l="這個部分">搜尋</td>
+<td data-l="以前在檔案總管">右上角搜尋框</td>
+<td data-l="現在在 Finder">右上角搜尋框，或 <kbd>Command</kbd> 加 <kbd>F</kbd></td>
+</tr>
+</tbody>
+</table></div>
+</div><div class="sec">
+<h3 id="c6-h3">兩個一定要先打開的設定</h3>
+<p class="note">這兩個預設是關的，而 Windows 使用者非常依賴它們。開了之後 Finder 會順手很多。</p>
+<ol class="steps cols">
+<li>
+<span class="t">顯示副檔名</span>
+<span class="d">Mac 預設把 <kbd>.docx</kbd> <kbd>.jpg</kbd> 這些藏起來。在 Finder 選單列點「Finder」選「設定⋯」，切到「進階」，勾<strong>「顯示所有檔案副檔名」</strong>。</span>
+</li>
+<li>
+<span class="t">顯示路徑列</span>
+<span class="d">打開 Finder，按 <kbd>Option</kbd> 加 <kbd>Command</kbd> 加 <kbd>P</kbd>。視窗底部會多一條，顯示你現在在哪一層，跟位址列一樣好用。</span>
+</li>
+<li>
+<span class="t">順便：顯示捲軸</span>
+<span class="d">Mac 的捲軸平常是隱藏的，容易讓人誤以為資料夾裡只有幾個檔案。可至<span class="path">系統設定 <i>›</i> 外觀 <i>›</i> 顯示捲軸</span>，將設定改為「總是」。</span>
+</li>
+</ol>
+</div><div class="sec">
+<h3 id="c6-h4">檔案操作對照</h3>
+<div class="tbl"><table class="vs">
+<thead>
+<tr><th>你要做的事</th><th>以前在 Windows</th><th>現在在 Mac</th></tr>
+</thead>
+<tbody>
+<tr>
+<td data-l="你要做的事">新增資料夾</td>
+<td data-l="以前在 Windows"><kbd>Ctrl</kbd> 加 <kbd>Shift</kbd> 加 <kbd>N</kbd></td>
+<td data-l="現在在 Mac"><kbd>Shift</kbd> 加 <kbd>Command</kbd> 加 <kbd>N</kbd></td>
+</tr>
+<tr>
+<td data-l="你要做的事">重新命名</td>
+<td data-l="以前在 Windows">按 <kbd>F2</kbd></td>
+<td data-l="現在在 Mac">選起來按 <kbd>Return</kbd>，或點一下名字停一下再點</td>
+</tr>
+<tr>
+<td data-l="你要做的事">看檔案資訊</td>
+<td data-l="以前在 Windows">右鍵「內容」</td>
+<td data-l="現在在 Mac"><kbd>Command</kbd> 加 <kbd>I</kbd>，叫「取得資訊」</td>
+</tr>
+<tr>
+<td data-l="你要做的事">不開軟體快速看內容</td>
+<td data-l="以前在 Windows">檔案總管的「預覽窗格」要手動打開，沒有一按就看的快速鍵</td>
+<td data-l="現在在 Mac">選起來按<strong>空白鍵</strong>，叫「快速查看」，非常好用</td>
+</tr>
+<tr>
+<td data-l="你要做的事">刪除</td>
+<td data-l="以前在 Windows">按 <kbd>Delete</kbd></td>
+<td data-l="現在在 Mac"><kbd>Command</kbd> 加 <kbd>Delete</kbd></td>
+</tr>
+<tr>
+<td data-l="你要做的事">清空資源回收筒</td>
+<td data-l="以前在 Windows">桌面右鍵「清空資源回收筒」</td>
+<td data-l="現在在 Mac">Dock 最右邊的垃圾桶，右鍵「清空垃圾桶」</td>
+</tr>
+<tr>
+<td data-l="你要做的事">複製一份在原地</td>
+<td data-l="以前在 Windows">複製再貼上</td>
+<td data-l="現在在 Mac"><kbd>Command</kbd> 加 <kbd>D</kbd>，叫「複製」</td>
+</tr>
+<tr>
+<td data-l="你要做的事">壓縮成一包</td>
+<td data-l="以前在 Windows">右鍵「傳送到」再選壓縮資料夾</td>
+<td data-l="現在在 Mac">右鍵選「壓縮」，直接產生 zip</td>
+</tr>
+</tbody>
+</table></div>
+</div><div class="sec">
+<div class="warn">
+<span class="tag">再說一次剪下貼上</span>
+<p>這是 Windows 換過來最值得先了解的直覺操作：剪下搬移檔案。<kbd>Command</kbd> 加 <kbd>X</kbd> 專門用於文字；要搬移檔案：先在原地 <kbd>Command</kbd> 加 <kbd>C</kbd> 複製，到目的地按 <kbd>Option</kbd> 加 <kbd>Command</kbd> 加 <kbd>V</kbd>。或者更簡單：開兩個 Finder 視窗，直接把檔案拖移過去。</p>
+</div>
+</div><div class="sec">
+<h3 id="c6-h5">檔案存到哪裡去了</h3>
+<p>從瀏覽器下載的東西，一律進「下載項目」。這一點和 Windows 一樣，路徑不同而已。</p>
+<p>從程式裡按「儲存」的話，Mac 的儲存視窗預設是<strong>收起來的小視窗</strong>，只顯示檔名和一個位置下拉選單。很多人沒注意到那個位置，按了儲存就找不到檔案。點右邊的小箭頭可以展開成完整的資料夾清單，就跟 Windows 的另存新檔一樣。</p>
+</div><div class="sec">
+<div class="cards c2">
+<div class="card">
+<h4>找不到剛存的檔案</h4>
+<p>按 <kbd>Command</kbd> 加 <kbd>空白鍵</kbd> 打檔名。或打開 Finder 側邊欄的「最近項目」，剛動過的檔案都在那裡。</p>
+</div>
+<div class="card">
+<h4>想固定存到某個資料夾</h4>
+<p>把那個資料夾拖進 Finder 側邊欄，之後儲存視窗的位置清單裡就會有它，一點就到。</p>
+</div>
+</div>
+<div class="faq">
+<details>
+<summary>那我的硬碟到底在哪</summary>
+<div class="a"><p>它叫「Macintosh HD」。在 Finder 選單列點「前往」再選「電腦」就看得到。裡面的「系統」「資源庫」這些資料夾請不要動，那是系統的東西，也刪不掉。</p></div>
+</details>
+<details>
+<summary>可以再分一個 D 槽出來放資料嗎</summary>
+<div class="a"><p>技術上可以，但不建議。Mac 的設計是一顆硬碟一個空間，分割之後兩邊都會卡，反而更難用。要分開放，用資料夾就好，或外接一顆硬碟。</p></div>
+</details>
+<details>
+<summary>資料夾裡的檔案好像不齊，只有幾個</summary>
+<div class="a"><p>先兩指往上滑看看下面。Mac 的捲軸平常隱藏，右邊沒有灰色長條不代表沒有東西。上面第三個設定就是在講這件事。</p></div>
+</details>
+<details>
+<summary>Finder 搜尋出來的東西太多、都不是我要的</summary>
+<div class="a"><p>搜尋框下面有一列可以選「這部 Mac」或「目前的檔案夾」，改成目前的檔案夾就會準很多。想固定這個行為，在 Finder 設定的「進階」裡把搜尋改成「搜尋目前的檔案夾」。</p></div>
+</details>
+</div>
+</div>
+<section class="recap rv" aria-label="這一章做完了嗎"><p class="lab">做完打勾・第 06 章</p><ul class="chk"><li><label><input type="checkbox" data-k="win-5-0"><span class="bx" aria-hidden="true"></span><span class="tx">打開「顯示所有檔案副檔名」</span></label></li><li><label><input type="checkbox" data-k="win-5-1"><span class="bx" aria-hidden="true"></span><span class="tx">打開路徑列（Option 加 Command 加 P）</span></label></li><li><label><input type="checkbox" data-k="win-5-2"><span class="bx" aria-hidden="true"></span><span class="tx">捲軸改成「總是」顯示</span></label></li></ul></section>
+<nav class="chend" aria-label="讀完這一章"><p class="done">讀完第 06 章了</p><p class="nxl">下一步</p><a class="btn btn-primary btn-block" style="--nc:#2E7A4C" href="#ch-7"><span class="t"><small>下一章</small><span>07　沒有 exe，怎麼裝軟體</span></span><svg class="ic fw" aria-hidden="true"><use href="#v-fw"/></svg></a><a class="btn btn-tertiary prev " href="#ch-5"><svg class="ic bk" aria-hidden="true"><use href="#v-bk"/></svg><span class="lb">上一章：05 紅色叉叉不是關程式</span></a></nav>
+</section><section class="ch" style="--cc:#2E7A4C" id="ch-7" data-no="07" data-total="10" data-title="沒有 exe，怎麼裝軟體">
+<div class="spread" style="--lt:#E0F0E6"><header class="chhead rv"><span class="big cnt" data-n="7" aria-hidden="true">07</span><p class="kick"><span class="no">第 07 章</span><span class="of">共 10 章</span></p>
+<h2>沒有 exe，怎麼裝軟體</h2><p class="lead">Windows 裝軟體是「下載一個檔案，一直按下一步」。Mac 的邏輯不一樣：多數時候你只是把一個東西<strong>拖進資料夾</strong>，就算裝好了。</p></header><div class="rv" style="--d:2"><svg class="art spread-art" viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><clipPath id="spwin6"><rect x="20" y="20" width="380" height="260" rx="24"/></clipPath><g clip-path="url(#spwin6)"><rect x="20" y="20" width="380" height="260" rx="24" fill="#FFFFFF"/><rect x="20" y="236" width="380" height="44" fill="#D9B98C"/><rect x="20" y="268" width="380" height="12" fill="#B98F5C"/></g><rect x="65.0" y="101.6" width="210" height="134.4" rx="7.3500000000000005" fill="#1B1E23"/><rect x="71.3" y="107.89999999999999" width="197.4" height="118.65" fill="#EAF0F8"/><path d="M71.3 190.95499999999998 C120.65 169.598,160.13 181.463,193.688 173.1575 S248.95999999999998 162.47899999999998,268.7 169.598 V226.55 H71.3Z" fill="#DCE7F7"/><path d="M71.3 205.19299999999998 C130.51999999999998 190.95499999999998,179.87 202.82,225.272 193.32799999999997 S268.7 195.701,268.7 195.701 V226.55 H71.3Z" fill="#C4D6EE"/><rect x="71.3" y="107.89999999999999" width="197.4" height="6.52575" fill="#FFFFFF" opacity=".92"/><rect x="77.222" y="110.1840125" width="9.870000000000001" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="91.03999999999999" y="110.1840125" width="7.896000000000001" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="104.858" y="110.1840125" width="8.883" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="118.676" y="110.1840125" width="7.896000000000001" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="241.06400000000002" y="110.1840125" width="19.740000000000002" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="120.65" y="211.1255" width="98.7" height="11.865000000000002" rx="3.5595000000000003" fill="#FFFFFF" opacity=".75"/><rect x="125.51255" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#1F5FBF"/><rect x="138.9179" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#3BA55C"/><rect x="152.32325" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#F2C14E"/><rect x="165.7286" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#B8410E"/><rect x="179.13395" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#7A3FC0"/><rect x="192.53930000000003" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#4F8FE6"/><rect x="205.94465000000002" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#7C8591"/><circle cx="170" cy="104.75" r="0.84" fill="#3A3F47"/><path d="M48.2 236 H291.8 L287.6 243.35 Q170 245.1875 52.400000000000006 243.35Z" fill="#C9CDD3"/><rect x="151.1" y="236" width="37.8" height="2.9400000000000004" rx="1.4700000000000002" fill="#9EA3AB"/><rect x="52.400000000000006" y="243.35" width="235.2" height="1.68" rx="2" fill="#9EA3AB" opacity=".6"/><circle cx="170" cy="163.5" r="38" fill="#000" opacity=".10"/><circle cx="170" cy="160" r="38" fill="#fff"/><g transform="translate(141.2 131.2) scale(.36)"><path d="M80 18 V84 M56 62 L80 86 L104 62" stroke="#2E7A4C" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 96 V128 Q24 136 32 136 H128 Q136 136 136 128 V96" stroke="#2E7A4C" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g><path d="M328 236 V204 Q328 198 334 198 H362 Q368 198 368 204 V236Z" fill="#E0F0E6" stroke="#111418" stroke-width="2.5"/><path d="M368 208 h6 a10 10 0 0 1 0 20 h-6" stroke="#111418" stroke-width="2.5" fill="none"/><rect x="328" y="212" width="40" height="7" fill="#2E7A4C"/><path d="M340 188 c-5 -8 5 -12 0 -20 M354 188 c-5 -8 5 -12 0 -20" stroke="#111418" stroke-width="3" fill="none" stroke-linecap="round" opacity=".35"/><circle cx="340" cy="74" r="30" fill="#2E7A4C"/></svg></div></div>
+<aside class="key rv" aria-label="這一章的重點"><p class="lab">這一章的重點</p><p class="kq">把 App 拖進「應用程式」就是安裝，拖到垃圾桶就是移除。dmg 裝完就退出、刪掉。</p></aside>
+<nav class="outline" aria-label="這一章的段落"><p class="lab">這一章分 4 段</p><ol><li><a href="#c7-h1">三種安裝來源</a></li><li><a href="#c7-h2">dmg 的正確安裝流程</a></li><li><a href="#c7-h3">第一次打開被系統擋下來</a></li><li><a href="#c7-h4">怎麼移除軟體</a></li></ol></nav>
+<div class="sec">
+<p class="punch">Mac 上的 App 是一個完整的東西，不是一堆散裝檔案。搬進去叫安裝，丟掉就叫移除。</p>
+<div class="metaphor">
+<span class="tag">用生活來想</span>
+<p>Windows 裝軟體像請師傅來家裡裝冷氣：要打洞、拉管線、接電，東西散在牆裡牆外，拆的時候也得請人來拆。Mac 比較像買一台電風扇，從箱子裡拿出來放到客廳就能用，不要了就整台搬走，牆上不會留洞。</p>
+</div>
+</div><div class="sec">
+<h3 id="c7-h1">三種安裝來源</h3>
+<div class="tbl"><table class="vs">
+<thead>
+<tr><th>來源</th><th>以前在 Windows</th><th>現在在 Mac</th></tr>
+</thead>
+<tbody>
+<tr>
+<td data-l="來源">官方商店</td>
+<td data-l="以前在 Windows">Microsoft Store，很少人用</td>
+<td data-l="現在在 Mac">App Store，最安全，更新會自動處理</td>
+</tr>
+<tr>
+<td data-l="來源">從官網下載</td>
+<td data-l="以前在 Windows">下載 <kbd>.exe</kbd> 或 <kbd>.msi</kbd>，一路按下一步</td>
+<td data-l="現在在 Mac">下載 <kbd>.dmg</kbd>，打開後把 App 拖進「應用程式」</td>
+</tr>
+<tr>
+<td data-l="來源">需要安裝程式的</td>
+<td data-l="以前在 Windows">同上</td>
+<td data-l="現在在 Mac">少數會給 <kbd>.pkg</kbd>，那個就跟 Windows 一樣按下一步</td>
+</tr>
+</tbody>
+</table></div>
+<p class="note">日常用的軟體多半走前兩種。看到 <kbd>.dmg</kbd> 不要怕，它不是壓縮檔，是一個「虛擬光碟」。</p>
+</div><div class="sec" id="q-install">
+<h3 id="c7-h2">dmg 的正確安裝流程</h3>
+<p class="note">這是新手最常做錯的一件事，錯了不會壞掉，但每次開軟體都會怪怪的。</p>
+<figure class="dia wide">
+<img alt="dmg 安裝三步驟流程圖：點兩下打開 dmg、把 App 圖示拖進應用程式資料夾、退出這個磁碟並刪掉 dmg 檔" src="img/fig-windows-07-1.png"/>
+<figcaption><span class="fno">圖 07-1</span>幾乎所有 dmg 打開後都長這樣：左邊一個 App 圖示，右邊一個「應用程式」資料夾，中間一個箭頭。它在告訴你要做什麼。</figcaption>
+</figure>
+</div><div class="sec">
+<ol class="steps">
+<li>
+<span class="t">在「下載項目」裡點兩下那個 dmg</span>
+<span class="d">會跳出一個視窗，同時 Finder 側邊欄下方會多出一個像磁碟的東西。這代表它被「掛載」起來了，像插了一張光碟進去。</span>
+</li>
+<li>
+<span class="t">把 App 圖示拖到「應用程式」資料夾</span>
+<span class="d">視窗裡通常已經幫你放好了「應用程式」的捷徑，直接拖過去放手，複製完成就是安裝完成。這一步就是全部的安裝過程。</span>
+</li>
+<li>
+<span class="t">退出那個磁碟，再把 dmg 刪掉</span>
+<span class="d">在 Finder 側邊欄找到剛才多出來的那一項，點旁邊的退出符號。然後把「下載項目」裡的 dmg 丟到垃圾桶，它已經沒用了。</span>
+</li>
+<li>
+<span class="t">之後從「應用程式」或 Spotlight 打開</span>
+<span class="d">按 <kbd>Command</kbd> 加 <kbd>空白鍵</kbd> 打前幾個字就能開。想放到 Dock，開起來之後在 Dock 圖示上按右鍵，選「保留在 Dock 上」。</span>
+</li>
+</ol>
+</div><div class="sec">
+<div class="warn">
+<span class="tag">最常見的錯誤：直接從 dmg 裡開來用</span>
+<p>沒有拖進「應用程式」就直接點兩下開，軟體是會動，但那等於「每次都要先插光碟」。徵狀是：重開機之後找不到那個 App、或桌面上一直有一個磁碟圖示賴著不走。發現弄錯了不用重下載，把 dmg 再打開一次，補拖進去就好。</p>
+</div>
+</div><div class="sec">
+<h3 id="c7-h3">第一次打開被系統擋下來</h3>
+<p>從官網下載的軟體，第一次開可能會跳出「已阻擋⋯以保護你的Mac」。這不是中毒，是系統的預設保護。</p>
+<div class="swap">
+<div class="was">
+<span class="lbl">如果你信任這個來源</span>
+<p>前往<span class="path">系統設定 <i>›</i> 隱私權與安全性</span>，往下捲動至「安全性」區塊，即可看到剛才被阻擋的 App，點一下<strong>「強制打開」</strong>即可。</p>
+<p>只要做一次，以後直接開。</p>
+</div>
+<div class="now">
+<span class="lbl">如果你不確定來源</span>
+<p>那就不要開。這個提示本身就是在提醒你：這個軟體不是從 App Store 來的，系統也認不出開發者。</p>
+<p>先回頭確認一下，你是不是從搜尋結果的廣告連結、而不是官方網站下載的。</p>
+</div>
+</div>
+<p class="note">同一頁的「允許以下來源的應用程式」建議維持「App Store 與已知的開發者」，不要改成「任何來源」。</p>
+</div><div class="sec">
+<h3 id="c7-h4">怎麼移除軟體</h3>
+<p>沒有 Windows 設定裡「應用程式」清單那種地方，因為不需要。</p>
+<ol class="steps cols">
+<li>
+<span class="t">從「應用程式」拖到垃圾桶</span>
+<span class="d">打開 Finder，點側邊欄的「應用程式」，找到那個 App，拖到 Dock 最右邊的垃圾桶。清空垃圾桶就真的沒了。</span>
+</li>
+<li>
+<span class="t">有些軟體自帶移除工具</span>
+<span class="d">Adobe、部分防毒和驅動程式類的軟體例外，它們在「應用程式」裡會有一個 Uninstaller，用那個移除比較乾淨。</span>
+</li>
+</ol>
+<div class="faq">
+<details>
+<summary>Windows 上買的軟體，可以裝到 Mac 嗎</summary>
+<div class="a"><p>程式本身不能直接用，兩邊是不同的系統。不過很多軟體有 Mac 版，而且授權常常是共用的（例如 Microsoft 365、Adobe），去官網用同一個帳號登入下載 Mac 版就好。純 Windows 專用的軟體則要找替代品，下一章有對照表。</p></div>
+</details>
+<details>
+<summary>要不要裝防毒軟體</summary>
+<div class="a"><p>一般使用不用。macOS 內建的防護會自動更新，而且第三方的清理和防毒軟體在 Mac 上經常是反效果：吃資源、跳廣告、還很難移除。公司規定要裝的話另當別論。</p></div>
+</details>
+<details>
+<summary>移除 App 之後，設定檔會留著嗎</summary>
+<div class="a"><p>會留一些在系統的資源庫裡。多數 App 留下的很小，不影響效能；大型軟體（例如影音剪輯、設計類）可能留下較多資料或快取，需要時用它自帶的移除工具會比較乾淨。好處是之後重新安裝，設定還在。</p></div>
+</details>
+</div>
+</div>
+<section class="recap rv" aria-label="這一章做完了嗎"><p class="lab">做完打勾・第 07 章</p><ul class="chk"><li><label><input type="checkbox" data-k="win-6-0"><span class="bx" aria-hidden="true"></span><span class="tx">用 dmg 裝一個軟體，拖進「應用程式」</span></label></li><li><label><input type="checkbox" data-k="win-6-1"><span class="bx" aria-hidden="true"></span><span class="tx">裝完退出磁碟、刪掉 dmg</span></label></li><li><label><input type="checkbox" data-k="win-6-2"><span class="bx" aria-hidden="true"></span><span class="tx">知道被擋下來時去哪裡放行</span></label></li></ul></section>
+<nav class="chend" aria-label="讀完這一章"><p class="done">讀完第 07 章了</p><p class="nxl">下一步</p><a class="btn btn-primary btn-block" style="--nc:#7A3FC0" href="#ch-8"><span class="t"><small>下一章</small><span>08　常用軟體換成什麼</span></span><svg class="ic fw" aria-hidden="true"><use href="#v-fw"/></svg></a><a class="btn btn-tertiary prev " href="#ch-6"><svg class="ic bk" aria-hidden="true"><use href="#v-bk"/></svg><span class="lb">上一章：06 沒有 C 槽，檔案在哪</span></a></nav>
+</section><section class="ch" style="--cc:#7A3FC0" id="ch-8" data-no="08" data-total="10" data-title="常用軟體換成什麼">
+<div class="spread" style="--lt:#EEE5F9"><header class="chhead rv"><span class="big cnt" data-n="8" aria-hidden="true">08</span><p class="kick"><span class="no">第 08 章</span><span class="of">共 10 章</span></p>
+<h2>常用軟體換成什麼</h2><p class="lead">你每天在 Windows 上開的那幾個程式，Mac 幾乎都有對應的。多數是系統內建，不用另外裝也不用花錢。</p></header><div class="rv" style="--d:2"><svg class="art spread-art" viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><clipPath id="spwin7"><rect x="20" y="20" width="380" height="260" rx="24"/></clipPath><g clip-path="url(#spwin7)"><rect x="20" y="20" width="380" height="260" rx="24" fill="#FFFFFF"/><rect x="20" y="236" width="380" height="44" fill="#D9B98C"/><rect x="20" y="268" width="380" height="12" fill="#B98F5C"/></g><rect x="65.0" y="101.6" width="210" height="134.4" rx="7.3500000000000005" fill="#1B1E23"/><rect x="71.3" y="107.89999999999999" width="197.4" height="118.65" fill="#EAF0F8"/><path d="M71.3 190.95499999999998 C120.65 169.598,160.13 181.463,193.688 173.1575 S248.95999999999998 162.47899999999998,268.7 169.598 V226.55 H71.3Z" fill="#DCE7F7"/><path d="M71.3 205.19299999999998 C130.51999999999998 190.95499999999998,179.87 202.82,225.272 193.32799999999997 S268.7 195.701,268.7 195.701 V226.55 H71.3Z" fill="#C4D6EE"/><rect x="71.3" y="107.89999999999999" width="197.4" height="6.52575" fill="#FFFFFF" opacity=".92"/><rect x="77.222" y="110.1840125" width="9.870000000000001" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="91.03999999999999" y="110.1840125" width="7.896000000000001" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="104.858" y="110.1840125" width="8.883" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="118.676" y="110.1840125" width="7.896000000000001" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="241.06400000000002" y="110.1840125" width="19.740000000000002" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="120.65" y="211.1255" width="98.7" height="11.865000000000002" rx="3.5595000000000003" fill="#FFFFFF" opacity=".75"/><rect x="125.51255" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#1F5FBF"/><rect x="138.9179" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#3BA55C"/><rect x="152.32325" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#F2C14E"/><rect x="165.7286" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#B8410E"/><rect x="179.13395" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#7A3FC0"/><rect x="192.53930000000003" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#4F8FE6"/><rect x="205.94465000000002" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#7C8591"/><circle cx="170" cy="104.75" r="0.84" fill="#3A3F47"/><path d="M48.2 236 H291.8 L287.6 243.35 Q170 245.1875 52.400000000000006 243.35Z" fill="#C9CDD3"/><rect x="151.1" y="236" width="37.8" height="2.9400000000000004" rx="1.4700000000000002" fill="#9EA3AB"/><rect x="52.400000000000006" y="243.35" width="235.2" height="1.68" rx="2" fill="#9EA3AB" opacity=".6"/><circle cx="170" cy="163.5" r="38" fill="#000" opacity=".10"/><circle cx="170" cy="160" r="38" fill="#fff"/><g transform="translate(141.2 131.2) scale(.36)"><rect x="18" y="30" width="46" height="46" rx="12" stroke="#7A3FC0" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="96" y="84" width="46" height="46" rx="12" stroke="#7A3FC0" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M74 53 H120 Q128 53 128 61 V72 M120 64 l8 10 l8 -10" stroke="#7A3FC0" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M86 107 H40 Q32 107 32 99 V88 M24 96 l8 -10 l8 10" stroke="#7A3FC0" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g><path d="M328 236 V204 Q328 198 334 198 H362 Q368 198 368 204 V236Z" fill="#EEE5F9" stroke="#111418" stroke-width="2.5"/><path d="M368 208 h6 a10 10 0 0 1 0 20 h-6" stroke="#111418" stroke-width="2.5" fill="none"/><rect x="328" y="212" width="40" height="7" fill="#7A3FC0"/><path d="M340 188 c-5 -8 5 -12 0 -20 M354 188 c-5 -8 5 -12 0 -20" stroke="#111418" stroke-width="3" fill="none" stroke-linecap="round" opacity=".35"/><circle cx="340" cy="74" r="30" fill="#7A3FC0"/></svg></div></div>
+<aside class="key rv" aria-label="這一章的重點"><p class="lab">這一章的重點</p><p class="kq">先別急著裝軟體。開機當天內建的那些，就足以應付大部分的事。</p></aside>
+<nav class="outline" aria-label="這一章的段落"><p class="lab">這一章分 4 段</p><ol><li><a href="#c8-h1">文書與辦公</a></li><li><a href="#c8-h2">看圖、影音、PDF</a></li><li><a href="#c8-h3">上網與通訊</a></li><li><a href="#c8-h4">系統工具</a></li></ol></nav>
+<div class="sec">
+<p class="punch">先別急著裝軟體。開機當天內建的這些，就足以應付大部分的事。</p>
+<div class="icons">
+<div class="icon-card">
+<img alt="" src="img/app-finder.png"/>
+<span class="nm">Finder</span>
+<span class="ds">檔案總管</span>
+</div>
+<div class="icon-card">
+<img alt="" src="img/app-safari.png"/>
+<span class="nm">Safari</span>
+<span class="ds">瀏覽器</span>
+</div>
+<div class="icon-card">
+<img alt="" src="img/app-mail.png"/>
+<span class="nm">郵件</span>
+<span class="ds">Outlook</span>
+</div>
+<div class="icon-card">
+<img alt="" src="img/app-preview.png"/>
+<span class="nm">預覽程式</span>
+<span class="ds">看圖、看 PDF</span>
+</div>
+<div class="icon-card">
+<img alt="" src="img/app-notes.png"/>
+<span class="nm">備忘錄</span>
+<span class="ds">記事本</span>
+</div>
+<div class="icon-card">
+<img alt="" src="img/app-settings.png"/>
+<span class="nm">系統設定</span>
+<span class="ds">設定</span>
+</div>
+<div class="icon-card">
+<img alt="" src="img/app-activity-monitor.png"/>
+<span class="nm">活動監視器</span>
+<span class="ds">工作管理員</span>
+</div>
+<div class="icon-card">
+<img alt="" src="img/app-time-machine.png"/>
+<span class="nm">時光機</span>
+<span class="ds">檔案備份</span>
+</div>
+</div>
+</div><div class="sec">
+<h3 id="c8-h1">文書與辦公</h3>
+<div class="tbl"><table class="vs">
+<thead>
+<tr><th>用途</th><th>以前在 Windows</th><th>現在在 Mac</th></tr>
+</thead>
+<tbody>
+<tr>
+<td data-l="用途">文件</td>
+<td data-l="以前在 Windows">Word</td>
+<td data-l="現在在 Mac">Pages（內建、免費），或照樣裝 Word</td>
+</tr>
+<tr>
+<td data-l="用途">試算表</td>
+<td data-l="以前在 Windows">Excel</td>
+<td data-l="現在在 Mac">Numbers（內建、免費），或照樣裝 Excel</td>
+</tr>
+<tr>
+<td data-l="用途">簡報</td>
+<td data-l="以前在 Windows">PowerPoint</td>
+<td data-l="現在在 Mac">Keynote（內建、免費），或照樣裝 PowerPoint</td>
+</tr>
+<tr>
+<td data-l="用途">記事</td>
+<td data-l="以前在 Windows">記事本</td>
+<td data-l="現在在 Mac">文字編輯（純文字），或備忘錄（能貼圖、能同步手機）</td>
+</tr>
+<tr>
+<td data-l="用途">畫圖、標註</td>
+<td data-l="以前在 Windows">小畫家</td>
+<td data-l="現在在 Mac">預覽程式可以標註和塗改；要自由畫用無邊記</td>
+</tr>
+</tbody>
+</table></div>
+</div><div class="sec">
+<div class="warn">
+<span class="tag">要交檔案給同事的話</span>
+<p>Pages、Numbers、Keynote 存出來是自己的格式，Windows 打不開。要給人的時候，在「檔案」選單選「輸出至」，轉成 Word、Excel、PowerPoint 或 PDF 再寄。<strong>常常要跟 Windows 同事來回改稿的話，直接裝 Microsoft 365 的 Mac 版最省事。</strong></p>
+</div>
+</div><div class="sec">
+<h3 id="c8-h2">看圖、影音、PDF</h3>
+<div class="tbl"><table class="vs">
+<thead>
+<tr><th>用途</th><th>以前在 Windows</th><th>現在在 Mac</th></tr>
+</thead>
+<tbody>
+<tr>
+<td data-l="用途">看圖片</td>
+<td data-l="以前在 Windows">相片 App</td>
+<td data-l="現在在 Mac">預覽程式；或選起來按<strong>空白鍵</strong>直接看</td>
+</tr>
+<tr>
+<td data-l="用途">看 PDF、簽名</td>
+<td data-l="以前在 Windows">Adobe Reader</td>
+<td data-l="現在在 Mac">預覽程式，內建就能填表和手寫簽名</td>
+</tr>
+<tr>
+<td data-l="用途">看影片</td>
+<td data-l="以前在 Windows">Windows 媒體播放器</td>
+<td data-l="現在在 Mac">QuickTime Player；格式雜的話裝 VLC</td>
+</tr>
+<tr>
+<td data-l="用途">管理照片</td>
+<td data-l="以前在 Windows">相片 App</td>
+<td data-l="現在在 Mac">照片，會和 iPhone 同一份</td>
+</tr>
+<tr>
+<td data-l="用途">錄螢幕</td>
+<td data-l="以前在 Windows">Xbox Game Bar</td>
+<td data-l="現在在 Mac"><kbd>Shift</kbd> 加 <kbd>Command</kbd> 加 <kbd>5</kbd>，直接錄</td>
+</tr>
+<tr>
+<td data-l="用途">解壓縮</td>
+<td data-l="以前在 Windows">zip 內建就能開；rar、7z 要裝 7-Zip</td>
+<td data-l="現在在 Mac">zip 點兩下就開；rar 或 7z 要裝 The Unarchiver</td>
+</tr>
+</tbody>
+</table></div>
+</div><div class="sec">
+<h3 id="c8-h3">上網與通訊</h3>
+<div class="tbl"><table class="vs">
+<thead>
+<tr><th>用途</th><th>以前在 Windows</th><th>現在在 Mac</th></tr>
+</thead>
+<tbody>
+<tr>
+<td data-l="用途">瀏覽器</td>
+<td data-l="以前在 Windows">Edge、Chrome</td>
+<td data-l="現在在 Mac">Safari（內建，最省電）；Chrome、Edge 也都有 Mac 版</td>
+</tr>
+<tr>
+<td data-l="用途">收信</td>
+<td data-l="以前在 Windows">Outlook</td>
+<td data-l="現在在 Mac">郵件（內建），或照樣裝 Outlook</td>
+</tr>
+<tr>
+<td data-l="用途">通訊軟體</td>
+<td data-l="以前在 Windows">LINE、Teams</td>
+<td data-l="現在在 Mac">都有 Mac 版，去 App Store 或官網下載</td>
+</tr>
+<tr>
+<td data-l="用途">傳檔案給手機</td>
+<td data-l="以前在 Windows">用 LINE 傳給自己，或接傳輸線</td>
+<td data-l="現在在 Mac">AirDrop，對 iPhone 直接無線丟過去</td>
+</tr>
+<tr>
+<td data-l="用途">記密碼</td>
+<td data-l="以前在 Windows">瀏覽器記憶，或另裝軟體</td>
+<td data-l="現在在 Mac">「密碼」App，和 iPhone 同一份</td>
+</tr>
+</tbody>
+</table></div>
+</div><div class="sec">
+<h3 id="c8-h4">系統工具</h3>
+<div class="tbl"><table class="vs">
+<thead>
+<tr><th>用途</th><th>以前在 Windows</th><th>現在在 Mac</th></tr>
+</thead>
+<tbody>
+<tr>
+<td data-l="用途">改設定</td>
+<td data-l="以前在 Windows">控制台、設定</td>
+<td data-l="現在在 Mac">系統設定</td>
+</tr>
+<tr>
+<td data-l="用途">看誰在吃資源</td>
+<td data-l="以前在 Windows">工作管理員</td>
+<td data-l="現在在 Mac">活動監視器</td>
+</tr>
+<tr>
+<td data-l="用途">管理硬碟、格式化</td>
+<td data-l="以前在 Windows">磁碟管理</td>
+<td data-l="現在在 Mac">磁碟工具程式</td>
+</tr>
+<tr>
+<td data-l="用途">備份檔案</td>
+<td data-l="以前在 Windows">檔案歷程記錄</td>
+<td data-l="現在在 Mac">時光機</td>
+</tr>
+<tr>
+<td data-l="用途">雲端空間</td>
+<td data-l="以前在 Windows">OneDrive</td>
+<td data-l="現在在 Mac">iCloud 雲碟；OneDrive 也有 Mac 版</td>
+</tr>
+<tr>
+<td data-l="用途">下指令</td>
+<td data-l="以前在 Windows">命令提示字元、PowerShell</td>
+<td data-l="現在在 Mac">終端機</td>
+</tr>
+<tr>
+<td data-l="用途">指紋登入</td>
+<td data-l="以前在 Windows">Windows Hello</td>
+<td data-l="現在在 Mac">Touch ID</td>
+</tr>
+</tbody>
+</table></div>
+</div><div class="sec">
+<div class="faq">
+<details>
+<summary>公司要用的系統只支援 Windows，怎麼辦</summary>
+<div class="a"><p>先確認是不是網頁版的，如果是，用 Safari 或 Chrome 開通常沒問題。真的是 Windows 專用軟體，可以問公司有沒有遠端桌面可以連，那是最簡單的解法。</p></div>
+</details>
+<details>
+<summary>注音輸入法用起來不太一樣</summary>
+<div class="a"><p>內建的注音預設是自動選字，打完一整句再按 <kbd>Return</kbd>，比一個字一個字選快。真的不習慣，可以在<span class="path">系統設定 <i>›</i> 鍵盤 <i>›</i> 文字輸入</span>裡調整，或另外裝習慣的第三方輸入法。</p></div>
+</details>
+<details>
+<summary>字體不一樣，開 Word 檔會跑版</summary>
+<div class="a"><p>常見原因是 Windows 常用的新細明體、微軟正黑體 Mac 預設沒有。要跟同事來回改稿的話，兩邊都改用裝得到的共通字體（例如思源黑體），或最後定稿轉 PDF 再寄。</p></div>
+</details>
+</div>
+</div>
+<section class="recap rv" aria-label="這一章做完了嗎"><p class="lab">做完打勾・第 08 章</p><ul class="chk"><li><label><input type="checkbox" data-k="win-7-0"><span class="bx" aria-hidden="true"></span><span class="tx">用預覽程式開一次 PDF</span></label></li><li><label><input type="checkbox" data-k="win-7-1"><span class="bx" aria-hidden="true"></span><span class="tx">找到內建的備忘錄</span></label></li><li><label><input type="checkbox" data-k="win-7-2"><span class="bx" aria-hidden="true"></span><span class="tx">只裝真的每天要用的軟體</span></label></li></ul></section>
+<nav class="chend" aria-label="讀完這一章"><p class="done">讀完第 08 章了</p><p class="nxl">下一步</p><a class="btn btn-primary btn-block" style="--nc:#1F5FBF" href="#ch-9"><span class="t"><small>下一章</small><span>09　隨身碟、印表機、螢幕</span></span><svg class="ic fw" aria-hidden="true"><use href="#v-fw"/></svg></a><a class="btn btn-tertiary prev " href="#ch-7"><svg class="ic bk" aria-hidden="true"><use href="#v-bk"/></svg><span class="lb">上一章：07 沒有 exe，怎麼裝軟體</span></a></nav>
+</section><section class="ch" style="--cc:#1F5FBF" id="ch-9" data-no="09" data-total="10" data-title="隨身碟、印表機、螢幕">
+<div class="spread" style="--lt:#E3ECF9"><header class="chhead rv"><span class="big cnt" data-n="9" aria-hidden="true">09</span><p class="kick"><span class="no">第 09 章</span><span class="of">共 10 章</span></p>
+<h2>隨身碟、印表機、螢幕</h2><p class="lead">周邊設備多半接上就能直接使用，不需找驅動程式光碟。只要認識隨身碟格式，就能在 Mac 與 Windows 之間順暢讀寫、自由傳檔。</p></header><div class="rv" style="--d:2"><svg class="art spread-art" viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><clipPath id="spwin8"><rect x="20" y="20" width="380" height="260" rx="24"/></clipPath><g clip-path="url(#spwin8)"><rect x="20" y="20" width="380" height="260" rx="24" fill="#FFFFFF"/><rect x="20" y="236" width="380" height="44" fill="#D9B98C"/><rect x="20" y="268" width="380" height="12" fill="#B98F5C"/></g><rect x="65.0" y="101.6" width="210" height="134.4" rx="7.3500000000000005" fill="#1B1E23"/><rect x="71.3" y="107.89999999999999" width="197.4" height="118.65" fill="#EAF0F8"/><path d="M71.3 190.95499999999998 C120.65 169.598,160.13 181.463,193.688 173.1575 S248.95999999999998 162.47899999999998,268.7 169.598 V226.55 H71.3Z" fill="#DCE7F7"/><path d="M71.3 205.19299999999998 C130.51999999999998 190.95499999999998,179.87 202.82,225.272 193.32799999999997 S268.7 195.701,268.7 195.701 V226.55 H71.3Z" fill="#C4D6EE"/><rect x="71.3" y="107.89999999999999" width="197.4" height="6.52575" fill="#FFFFFF" opacity=".92"/><rect x="77.222" y="110.1840125" width="9.870000000000001" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="91.03999999999999" y="110.1840125" width="7.896000000000001" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="104.858" y="110.1840125" width="8.883" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="118.676" y="110.1840125" width="7.896000000000001" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="241.06400000000002" y="110.1840125" width="19.740000000000002" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="120.65" y="211.1255" width="98.7" height="11.865000000000002" rx="3.5595000000000003" fill="#FFFFFF" opacity=".75"/><rect x="125.51255" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#1F5FBF"/><rect x="138.9179" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#3BA55C"/><rect x="152.32325" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#F2C14E"/><rect x="165.7286" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#B8410E"/><rect x="179.13395" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#7A3FC0"/><rect x="192.53930000000003" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#4F8FE6"/><rect x="205.94465000000002" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#7C8591"/><circle cx="170" cy="104.75" r="0.84" fill="#3A3F47"/><path d="M48.2 236 H291.8 L287.6 243.35 Q170 245.1875 52.400000000000006 243.35Z" fill="#C9CDD3"/><rect x="151.1" y="236" width="37.8" height="2.9400000000000004" rx="1.4700000000000002" fill="#9EA3AB"/><rect x="52.400000000000006" y="243.35" width="235.2" height="1.68" rx="2" fill="#9EA3AB" opacity=".6"/><circle cx="170" cy="163.5" r="38" fill="#000" opacity=".10"/><circle cx="170" cy="160" r="38" fill="#fff"/><g transform="translate(141.2 131.2) scale(.36)"><rect x="54" y="62" width="52" height="78" rx="10" stroke="#1F5FBF" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="64" y="22" width="32" height="40" stroke="#1F5FBF" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M74 36 V44 M86 36 V44" stroke="#1F5FBF" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M80 90 V116" stroke="#1F5FBF" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g><rect x="316" y="188" width="30" height="48" rx="6" fill="#1F5FBF"/><rect x="321" y="168" width="20" height="20" fill="#C9CDD3"/><circle cx="340" cy="74" r="30" fill="#1F5FBF"/></svg></div></div>
+<aside class="key rv" aria-label="這一章的重點"><p class="lab">這一章的重點</p><p class="kq">Windows 帶來的隨身碟若為 NTFS，Mac 預設為唯讀。若想跨系統自由讀寫，格式化為 exFAT 最便利。</p></aside>
+<nav class="outline" aria-label="這一章的段落"><p class="lab">這一章分 4 段</p><ol><li><a href="#c9-h1">隨身碟格式與跨系統讀寫</a></li><li><a href="#c9-h2">要改格式的話</a></li><li><a href="#c9-h3">拔隨身碟之前要先退出</a></li><li><a href="#c9-h4">印表機、螢幕、其他周邊</a></li></ol></nav>
+<div class="sec">
+<p class="punch">從 Windows 帶來的隨身碟，Mac 預設可以直接讀取；若想自由寫入檔案，選對格式即可。</p>
+<div class="metaphor">
+<span class="tag">用生活來想</span>
+<p>這就像一本用你看得懂的語言寫的筆記本，你讀得很順，但那本子的裝訂方式讓你沒辦法往裡面加頁。內容沒問題，是本子的規格不合。</p>
+</div>
+</div><div class="sec" id="q-usb">
+<h3 id="c9-h1">隨身碟格式與跨系統讀寫</h3>
+<p>Windows 隨身碟常見的 <strong>NTFS 格式</strong>，在 macOS 預設支援讀取。若要在兩台電腦之間自由拷貝與寫入，建議格式化為 <strong>exFAT</strong> 通用格式。</p>
+<div class="tbl"><table class="vs">
+<thead>
+<tr><th>格式</th><th>在 Windows</th><th>在 Mac</th></tr>
+</thead>
+<tbody>
+<tr>
+<td data-l="格式">NTFS</td>
+<td data-l="在 Windows">讀寫都行，Windows 的預設</td>
+<td data-l="在 Mac"><strong>預設支援讀取，無法寫入</strong></td>
+</tr>
+<tr>
+<td data-l="格式">exFAT</td>
+<td data-l="在 Windows">讀寫都行</td>
+<td data-l="在 Mac">讀寫都行，<strong>兩邊互通就用這個</strong></td>
+</tr>
+<tr>
+<td data-l="格式">FAT32</td>
+<td data-l="在 Windows">讀寫都行</td>
+<td data-l="在 Mac">讀寫都行，但單一檔案不能超過 4GB</td>
+</tr>
+<tr>
+<td data-l="格式">APFS</td>
+<td data-l="在 Windows">看不到這顆碟</td>
+<td data-l="在 Mac">讀寫都行，Mac 專用</td>
+</tr>
+</tbody>
+</table></div>
+<div class="warn">
+<span class="tag">怎麼知道自己的是哪一種</span>
+<p>把隨身碟插上，在 Finder 側邊欄點一下它，按 <kbd>Command</kbd> 加 <kbd>I</kbd>，「格式」那一欄就會寫。看到 Windows NT 檔案系統就是 NTFS。</p>
+</div>
+</div><div class="sec">
+<h3 id="c9-h2">要改格式的話</h3>
+<p class="note">改格式會<strong>清空整顆碟</strong>。裡面的東西先複製到 Mac 上（讀是讀得到的），再動手。</p>
+<ol class="steps">
+<li>
+<span class="t">先把裡面的檔案全部複製出來</span>
+<span class="d">插上隨身碟，把內容整包拖到 Mac 的「文件」或桌面。這一步不做，等一下全部會不見。</span>
+</li>
+<li>
+<span class="t">打開「磁碟工具程式」</span>
+<span class="d">按 <kbd>Command</kbd> 加 <kbd>空白鍵</kbd>，打「磁碟工具程式」。左邊清單裡點選那顆隨身碟，注意是點<strong>裝置本身</strong>，不是它底下那一層。</span>
+</li>
+<li>
+<span class="t">按上方的「清除」，格式選 ExFAT</span>
+<span class="d">名稱隨便取，格式選 ExFAT，架構如果有得選就選「主開機記錄」。按「清除」，幾秒就好。</span>
+</li>
+<li>
+<span class="t">把檔案複製回去</span>
+<span class="d">現在這顆碟在 Mac 和 Windows 兩邊都能讀寫了。把剛才備份出來的東西丟回去。</span>
+</li>
+</ol>
+<p class="note">不想改格式、又非得在 Mac 上寫入 NTFS 的話，市面上有付費的第三方驅動程式。一般用途不建議，換成 exFAT 單純很多。</p>
+</div><div class="sec">
+<h3 id="c9-h3">拔隨身碟之前要先退出</h3>
+<div class="swap">
+<div class="was">
+<span class="lbl">以前在 Windows</span>
+<p>右下角的「安全地移除硬體」，很多人其實直接拔。</p>
+</div>
+<div class="now">
+<span class="lbl">現在在 Mac</span>
+<p>在 Finder 側邊欄，那顆碟的名字旁邊有一個退出符號，點一下。名字消失了才拔。</p>
+<p>也可以把它從桌面拖到垃圾桶，垃圾桶會變成退出符號，這是 Mac 的老習慣。</p>
+</div>
+</div>
+<p class="note">沒退出就直接拔，通常沒事，但檔案正在寫入的時候拔會壞檔。養成習慣比較保險。</p>
+</div><div class="sec">
+<h3 id="c9-h4">印表機、螢幕、其他周邊</h3>
+<div class="tbl"><table class="vs">
+<thead>
+<tr><th>設備</th><th>以前在 Windows</th><th>現在在 Mac</th></tr>
+</thead>
+<tbody>
+<tr>
+<td data-l="設備">印表機</td>
+<td data-l="以前在 Windows">裝驅動程式，再新增印表機</td>
+<td data-l="現在在 Mac">同一個 Wi-Fi 下多半自動出現，列印時直接選</td>
+</tr>
+<tr>
+<td data-l="設備">找不到印表機</td>
+<td data-l="以前在 Windows">控制台的裝置和印表機</td>
+<td data-l="現在在 Mac"><span class="path">系統設定 <i>›</i> 印表機與掃描器</span>，按加號</td>
+</tr>
+<tr>
+<td data-l="設備">外接螢幕</td>
+<td data-l="以前在 Windows">接上去，按 <kbd>Win</kbd> 加 <kbd>P</kbd> 選模式</td>
+<td data-l="現在在 Mac">接上去自動延伸；<span class="path">系統設定 <i>›</i> 顯示器</span>可改成鏡像</td>
+</tr>
+<tr>
+<td data-l="設備">藍牙耳機、鍵盤</td>
+<td data-l="以前在 Windows">設定裡新增藍牙裝置</td>
+<td data-l="現在在 Mac">右上角控制中心的藍牙，或<span class="path">系統設定 <i>›</i> 藍牙</span></td>
+</tr>
+<tr>
+<td data-l="設備">接投影機</td>
+<td data-l="以前在 Windows">HDMI 線，按 <kbd>Win</kbd> 加 <kbd>P</kbd></td>
+<td data-l="現在在 Mac">HDMI 或 USB-C 轉接，接上就投；要同畫面就開鏡像</td>
+</tr>
+<tr>
+<td data-l="設備">SD 卡、讀卡機</td>
+<td data-l="以前在 Windows">插上出現一個磁碟機</td>
+<td data-l="現在在 Mac">插上出現在 Finder 側邊欄，用完一樣要退出</td>
+</tr>
+</tbody>
+</table></div>
+</div><div class="sec">
+<div class="faq">
+<details>
+<summary>要去哪裡下載印表機驅動程式</summary>
+<div class="a"><p>通常不用。macOS 內建了大部分廠牌的驅動，插上或在同一個 Wi-Fi 下就會自己抓。真的抓不到，才去該廠牌官網找 macOS 版本。掃描功能有時候要裝廠商的軟體才完整。</p></div>
+</details>
+<details>
+<summary>MacBook 的孔好像不夠用</summary>
+<div class="a"><p>比較新的機型主要是 USB-C 埠。要接舊的 USB 隨身碟、HDMI、SD 卡，買一個多功能轉接器就解決了，這是最常見的第一個配件。</p></div>
+</details>
+<details>
+<summary>外接螢幕的字看起來很模糊</summary>
+<div class="a"><p>前往<span class="path">系統設定 <i>›</i> 顯示器</span>，將外接螢幕的解析度選擇「預設」。非 Apple 螢幕在特定解析度下容易模糊，切換合適選項即可清晰。</p></div>
+</details>
+</div>
+</div>
+<section class="recap rv" aria-label="這一章做完了嗎"><p class="lab">做完打勾・第 09 章</p><ul class="chk"><li><label><input type="checkbox" data-k="win-8-0"><span class="bx" aria-hidden="true"></span><span class="tx">用 Command 加 I 看隨身碟格式</span></label></li><li><label><input type="checkbox" data-k="win-8-1"><span class="bx" aria-hidden="true"></span><span class="tx">需要互通就換成 exFAT（先備份）</span></label></li><li><label><input type="checkbox" data-k="win-8-2"><span class="bx" aria-hidden="true"></span><span class="tx">拔隨身碟前先按退出</span></label></li></ul></section>
+<nav class="chend" aria-label="讀完這一章"><p class="done">讀完第 09 章了</p><p class="nxl">下一步</p><a class="btn btn-primary btn-block" style="--nc:#B8410E" href="#ch-10"><span class="t"><small>下一章</small><span>10　頭三天照著做就好</span></span><svg class="ic fw" aria-hidden="true"><use href="#v-fw"/></svg></a><a class="btn btn-tertiary prev " href="#ch-8"><svg class="ic bk" aria-hidden="true"><use href="#v-bk"/></svg><span class="lb">上一章：08 常用軟體換成什麼</span></a></nav>
+</section><section class="ch" style="--cc:#B8410E" id="ch-10" data-no="10" data-total="10" data-title="頭三天照著做就好">
+<div class="spread" style="--lt:#F8E6DC"><header class="chhead rv"><span class="big cnt" data-n="10" aria-hidden="true">10</span><p class="kick"><span class="no">第 10 章</span><span class="of">共 10 章</span></p>
+<h2>頭三天照著做就好</h2><p class="lead">前面九章不用一次看完。這一章把該做的事排成三天，每天十分鐘，做完你就上手了。</p></header><div class="rv" style="--d:2"><svg class="art spread-art" viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><clipPath id="spwin9"><rect x="20" y="20" width="380" height="260" rx="24"/></clipPath><g clip-path="url(#spwin9)"><rect x="20" y="20" width="380" height="260" rx="24" fill="#FFFFFF"/><rect x="20" y="236" width="380" height="44" fill="#D9B98C"/><rect x="20" y="268" width="380" height="12" fill="#B98F5C"/></g><rect x="65.0" y="101.6" width="210" height="134.4" rx="7.3500000000000005" fill="#1B1E23"/><rect x="71.3" y="107.89999999999999" width="197.4" height="118.65" fill="#EAF0F8"/><path d="M71.3 190.95499999999998 C120.65 169.598,160.13 181.463,193.688 173.1575 S248.95999999999998 162.47899999999998,268.7 169.598 V226.55 H71.3Z" fill="#DCE7F7"/><path d="M71.3 205.19299999999998 C130.51999999999998 190.95499999999998,179.87 202.82,225.272 193.32799999999997 S268.7 195.701,268.7 195.701 V226.55 H71.3Z" fill="#C4D6EE"/><rect x="71.3" y="107.89999999999999" width="197.4" height="6.52575" fill="#FFFFFF" opacity=".92"/><rect x="77.222" y="110.1840125" width="9.870000000000001" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="91.03999999999999" y="110.1840125" width="7.896000000000001" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="104.858" y="110.1840125" width="8.883" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="118.676" y="110.1840125" width="7.896000000000001" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="241.06400000000002" y="110.1840125" width="19.740000000000002" height="1.957725" rx="0.9788625" fill="#9AA1AA"/><rect x="120.65" y="211.1255" width="98.7" height="11.865000000000002" rx="3.5595000000000003" fill="#FFFFFF" opacity=".75"/><rect x="125.51255" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#1F5FBF"/><rect x="138.9179" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#3BA55C"/><rect x="152.32325" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#F2C14E"/><rect x="165.7286" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#B8410E"/><rect x="179.13395" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#7A3FC0"/><rect x="192.53930000000003" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#4F8FE6"/><rect x="205.94465000000002" y="212.7866" width="8.542800000000002" height="8.542800000000002" rx="2.050272" fill="#7C8591"/><circle cx="170" cy="104.75" r="0.84" fill="#3A3F47"/><path d="M48.2 236 H291.8 L287.6 243.35 Q170 245.1875 52.400000000000006 243.35Z" fill="#C9CDD3"/><rect x="151.1" y="236" width="37.8" height="2.9400000000000004" rx="1.4700000000000002" fill="#9EA3AB"/><rect x="52.400000000000006" y="243.35" width="235.2" height="1.68" rx="2" fill="#9EA3AB" opacity=".6"/><circle cx="170" cy="163.5" r="38" fill="#000" opacity=".10"/><circle cx="170" cy="160" r="38" fill="#fff"/><g transform="translate(141.2 131.2) scale(.36)"><rect x="22" y="32" width="116" height="104" rx="12" stroke="#B8410E" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 60 H138 M52 20 V40 M108 20 V40" stroke="#B8410E" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M66 82 Q66 74 80 74 Q94 74 94 84 Q94 94 80 96 Q96 98 96 108 Q96 120 80 120 Q66 120 64 112" stroke="#B8410E" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g><rect x="300" y="196" width="24" height="40" rx="4" fill="#B8410E" opacity="0.45"/><rect x="328" y="182" width="24" height="54" rx="4" fill="#B8410E" opacity="0.72"/><rect x="356" y="168" width="24" height="68" rx="4" fill="#B8410E" opacity="0.99"/><circle cx="340" cy="74" r="30" fill="#B8410E"/></svg></div></div>
+<aside class="key rv" aria-label="這一章的重點"><p class="lab">這一章的重點</p><p class="kq">每天十分鐘，排成三天：第一天調手感，第二天放東西進來，第三天設好備份就結束。</p></aside>
+<nav class="outline" aria-label="這一章的段落"><p class="lab">這一章分 4 段</p><ol><li><a href="#c10-h1">第一天：把手感調對</a></li><li><a href="#c10-h2">第二天：把東西放進來</a></li><li><a href="#c10-h3">第三天：設好備份就結束</a></li><li><a href="#c10-h4">三天之後，遇到問題怎麼辦</a></li></ol></nav>
+<div class="sec">
+<p class="punch">不用一次學會全部。真正影響體驗的只有幾個設定，先把它們調好。</p>
+</div><div class="sec">
+<h3 id="c10-h1">第一天：把手感調對</h3>
+<p class="note">今天的目標是「用起來不彆扭」，全部在系統設定裡，十分鐘搞定。</p>
+<ol class="steps">
+<li>
+<span class="t">決定捲動方向</span>
+<span class="d"><span class="path">系統設定 <i>›</i> 觸控式軌跡板 <i>›</i> 捲動與縮放</span>。要維持 Mac 的方式就不動，想跟 Windows 一樣就把「自然捲動」關掉。用滑鼠的話，「滑鼠」那一頁也要關一次。</span>
+</li>
+<li>
+<span class="t">打開「點一下來選按」</span>
+<span class="d">同樣在觸控式軌跡板的「點按」那一頁。打開之後手指輕碰就等於按一下，不用整片壓下去，一天下來手會輕鬆很多。</span>
+</li>
+<li>
+<span class="t">打開副檔名和捲軸</span>
+<span class="d">Finder 選單列點「Finder」選「設定⋯」，在「進階」勾選「顯示所有檔案副檔名」，並至<span class="path">系統設定 <i>›</i> 外觀 <i>›</i> 顯示捲軸</span>設定為「總是」。這兩項是 Windows 使用者最關鍵的視覺引導。</span>
+</li>
+<li>
+<span class="t">練一次 Command 加空白鍵</span>
+<span class="d">按一次，打「計算機」，按 <kbd>Return</kbd>。這一招你之後每天會用幾十次，今天先讓手記住。</span>
+</li>
+</ol>
+</div><div class="sec">
+<h3 id="c10-h2">第二天：把東西放進來</h3>
+<p class="note">今天處理資料和軟體。舊電腦先不要清空，確認都搬好了再說。</p>
+<ol class="steps">
+<li>
+<span class="t">登入 Apple 帳號</span>
+<span class="d">用你 iPhone 上那一組。登入之後備忘錄、行事曆、照片、密碼會和手機同一份。<strong>不確定密碼就先拿手機確認，不要臨時新辦一組。</strong></span>
+</li>
+<li>
+<span class="t">把舊電腦的檔案搬過來</span>
+<span class="d">想整批搬：在舊電腦裝 Apple 的「Windows 系統移轉輔助程式」，Mac 這邊打開「系統移轉輔助程式」選「從 Windows PC」，文件、照片、書籤、行事曆會一起過來，步驟見上手包第 04 章。只搬幾個資料夾的話，用一顆 exFAT 格式的隨身碟或外接硬碟分幾趟搬最單純；檔案不多，用雲端硬碟或寄給自己也行。</span>
+</li>
+<li>
+<span class="t">裝三到五個你每天用的軟體</span>
+<span class="d">先只裝真的每天開的那幾個，例如瀏覽器、通訊軟體、辦公室文書。其他的等到真的要用再裝，別一口氣把舊電腦上的東西全搬過來。</span>
+</li>
+<li>
+<span class="t">整理 Dock</span>
+<span class="d">用不到的圖示右鍵選「從 Dock 中移除」，常用的開起來之後右鍵選「保留在 Dock 上」。整理過的 Dock 用起來差很多。</span>
+</li>
+</ol>
+</div><div class="sec">
+<h3 id="c10-h3">第三天：設好備份就結束</h3>
+<p class="note">這一天只有一件事，但它比前面所有事情加起來都重要。</p>
+<ol class="steps">
+<li>
+<span class="t">買一顆外接硬碟，設定「時光機」</span>
+<span class="d">接上外接硬碟，系統會問你要不要拿來備份，按確定。之後它會自己每小時備份一次，你完全不用管。這是 Mac 上最省事、也最救命的功能。</span>
+</li>
+<li>
+<span class="t">確認 iCloud 有在同步</span>
+<span class="d"><span class="path">系統設定 <i>›</i> iCloud</span>，看照片、備忘錄這些有沒有打開。這是雲端同步，和時光機的完整備份是兩件事，兩個都要有。</span>
+</li>
+<li>
+<span class="t">舊電腦先留著一個月</span>
+<span class="d">確定所有東西都在新電腦上、也備份過一輪之後，再處理舊機。急著清空是最容易後悔的一步。</span>
+</li>
+</ol>
+</div><div class="sec">
+<h3 id="c10-h4">三天之後，遇到問題怎麼辦</h3>
+<div class="cards c2">
+<div class="card">
+<h4>先重新開機</h4>
+<p>聽起來像廢話，但 Mac 平常很少關機，開了幾週之後偶爾會怪怪的。重開一次解決一大半。</p>
+</div>
+<div class="card">
+<h4>問內建的「使用說明」</h4>
+<p>選單列最右邊的「輔助說明」，打關鍵字就找得到官方步驟，而且是繁體中文的。</p>
+</div>
+<div class="card">
+<h4>用 Spotlight 找設定</h4>
+<p>想不起來某個設定在哪一頁，按 <kbd>Command</kbd> 加 <kbd>空白鍵</kbd> 直接打設定名稱，會直接跳到那一頁。</p>
+</div>
+<div class="card">
+<h4>回門市問</h4>
+<p>買機的門市可以協助設定和操作教學。帶著電腦來，當場示範一次比看十頁說明快。</p>
+</div>
+</div>
+<div class="metaphor">
+<span class="tag">最後一句</span>
+<p>換系統會不習慣是正常的，通常一到兩週就過去了。真的想不起來某個操作的時候，回到第 01 章那兩張速查表看一眼就好，不用從頭讀。</p>
+</div>
+</div>
+<section class="recap rv" aria-label="這一章做完了嗎"><p class="lab">做完打勾・第 10 章</p><ul class="chk"><li><label><input type="checkbox" data-k="win-9-0"><span class="bx" aria-hidden="true"></span><span class="tx">第一天：調好捲動、點按、副檔名</span></label></li><li><label><input type="checkbox" data-k="win-9-1"><span class="bx" aria-hidden="true"></span><span class="tx">第二天：登入帳號、搬檔案、裝軟體</span></label></li><li><label><input type="checkbox" data-k="win-9-2"><span class="bx" aria-hidden="true"></span><span class="tx">第三天：設定時光機</span></label></li></ul></section>
+<nav class="chend" aria-label="讀完這一章"><p class="done">讀完第 10 章了</p><p class="nxl">下一步</p><a class="btn btn-primary btn-block" style="--nc:#2E7A4C" href="index.html"><span class="t"><small>全書讀完・回到</small><span>Mac 上手包</span></span><svg class="ic fw" aria-hidden="true"><use href="#v-fw"/></svg></a><a class="btn btn-tertiary prev " href="#ch-9"><svg class="ic bk" aria-hidden="true"><use href="#v-bk"/></svg><span class="lb">上一章：09 隨身碟、印表機、螢幕</span></a></nav>
+</section></main>
+<section class="band" aria-label="門市協助"><div class="in col"><span class="bic"><svg class="ic" aria-hidden="true"><use href="#v-store"/></svg></span><p><b>有問題回購買的門市</b><span>帶著電腦來，現場示範一次<span class="nw">比看十頁說明快。</span></span></p></div></section><footer class="foot col"><span>Mac 上手包</span><span>適用版本 macOS 27.2・最後檢測日期 2026 年 11 月 4 日</span></footer><div class="spacer"></div>
+<div class="dock" aria-label="導覽列"><div class="in col"><button class="btn btn-secondary up" type="button" aria-label="上一頁"><svg class="ic bk" aria-hidden="true"><use href="#v-bk"/></svg><span class="lb">上一頁</span></button><p class="now"></p><a class="btn btn-primary nx " href="#ch-2"><span class="lb">下一章</span><svg class="ic fw" aria-hidden="true"><use href="#v-fw"/></svg></a></div></div>
+<div class="lbox" id="lb" hidden role="dialog" aria-modal="true" aria-label="放大的圖"><div class="top"><p>按 Esc 或點空白處也能關閉</p><button class="btn btn-secondary cls " type="button"><svg class="ic x" aria-hidden="true"><use href="#v-x"/></svg><span class="lb">關閉</span></button></div><div class="box"></div></div>
+<script type="application/json" id="nx">[{"href": "#ch-2", "label": "下一章", "ext": false}, {"href": "#ch-3", "label": "下一章", "ext": false}, {"href": "#ch-4", "label": "下一章", "ext": false}, {"href": "#ch-5", "label": "下一章", "ext": false}, {"href": "#ch-6", "label": "下一章", "ext": false}, {"href": "#ch-7", "label": "下一章", "ext": false}, {"href": "#ch-8", "label": "下一章", "ext": false}, {"href": "#ch-9", "label": "下一章", "ext": false}, {"href": "#ch-10", "label": "下一章", "ext": false}, {"href": "index.html", "label": "回上手包", "ext": false}]</script><script src="js/inner.js"></script><script src="js/book.js"></script><script src="js/reveal.js"></script>
+</body></html>
